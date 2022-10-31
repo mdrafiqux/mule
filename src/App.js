@@ -33,7 +33,7 @@ const App = () => {
                 <p className="paragraph">{ReactHtmlParser(val.point4)}</p>
                 <p className="paragraph">{ReactHtmlParser(val.point5)}</p>
                 <p className="paragraph">{ReactHtmlParser(val.point6)}</p>
-                {/* <p className="paragraph">{ReactHtmlParser(val.image)}</p> */}
+                <p className="paragraph">{ReactHtmlParser(val.image)}</p>
               </div>
             );
           })}
