@@ -30,6 +30,11 @@ const App = () => {
                   <h4 className="heading">{val.title}</h4>
                   <p className="paragraph">{val.content}</p>
                   <p className="paragraph">{ReactHtmlParser(val.points)}</p>
+                  <p className="paragraph">{ReactHtmlParser(val.points1)}</p>
+                  <p className="paragraph">{ReactHtmlParser(val.points2)}</p>
+                  <p className="paragraph">{ReactHtmlParser(val.points3)}</p>
+                  <p className="paragraph">{ReactHtmlParser(val.points4)}</p>
+                  <p className="paragraph">{ReactHtmlParser(val.image)}</p>
                 </div>
               );
             })}

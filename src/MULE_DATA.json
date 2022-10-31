@@ -9,7 +9,12 @@
      "id":2,
     "title": "What is Mule ESB?",
     "content": "flexibly connect, access, and exchange data easily",
-     "points": "Message Transformation Service <br> <strong>Set of Service Container</strong>"
+     "points": "<strong>Set of Service Container</strong>",
+     "points1": "<strong>Points 2</strong>",
+     "points2": "<strong>Points 3</strong>",
+     "points3": "<strong>Points 4</strong>",
+     "points4": "<strong>Points 5</strong>",
+     "image": "<img src=\" https://www.mulesoft.com/sites/default/files/cmm_files/what-mule-esb.png\">"
   },
   {
      "id":3,
