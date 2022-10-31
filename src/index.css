@@ -18,6 +18,9 @@ code {
   font-weight: bold;
   font-size: 16px;
 }
+.app {
+  padding: 20px;
+}
 .app input {
   margin: 20px 0 20px 0;
 }
