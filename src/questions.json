@@ -1,0 +1,74 @@
+[
+  {
+    "id":1,
+    "title": "What is MuleSoft? and advantages",
+    "content": "Mulesoft is an integration platform used for connecting data, applications and API's on premises and over the cloud plataform.",
+    "point1": "* MuleSoft works on the AnyPoint Connectivity Model which helps in connecting any existing SaaS-based applications or set of APIs through one single API interface.",
+    "point2": "*Organizations always want their system to be in sync so that they can operate all together and because of which integration need comes into picture",
+    "point3": "<strong>Challenges Before Mulesoft</strong><br>1. Complexity – if system A is connected with B, C and D and if there is a change in A system then all other system need a change",
+    "point4": "2. Rigid Architecture – no space for change<br>3. Reliability – if one of the system fail then there is no reliable way of putting that system out of network and all communication with the system will be lost",
+    "point5":"4. Tightly Coupled – each system is connected with all other system so change in one system need a change in many different system<br><strong>Advantages</strong><br>1. Remove Earlier complexities <br> 2. Increase customer engagement <br> 3. Improve Agality",
+     "point6":"",
+     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/2017/07/spaghetti-code.png\"> <img src=\"https://eshiasolutions.com/wp-content/uploads/2021/08/What-is-MuleSoft-A-simplified-look.jpg\">"
+  },
+  {
+    "id":2,
+    "title": "What is Integration?",
+    "content": "Act of bringing smaller components together in order to work as single product",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": ""
+  },
+  {
+    "id":3,
+    "title": "What is Middleware?",
+    "content": "Where we can host our applications, Mulesoft is a platform/product for middleware needs with in an organization",
+    "point1": "Organizations can have multiple applications to run day to day operations",
+    "point2": "Organization always wants there system to be in sync so that they can operate all together and because of which integration comes into the picture",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": ""
+  },
+  {
+    "id":4,
+    "title": "What is API? (Application Program Interface)",
+    "content": "Api is a way for two or more computer programs to communicate with each other. ",
+    "point1": "Organizations can have multiple applications to run day to day operations",
+    "point2": "Organization always wants there system to be in sync so that they can operate all together and because of which integration comes into the picture",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": ""
+  },
+  {
+    "id":5,
+    "title": "What is Mulesoft ESB? (Enterprise service bus)",
+    "content": "1. Mule ESB is an middleware tool for integrating various applications together over a bus like architecture ",
+    "point1": "2. With the help of ESB architecture we can connect different applications through a communication bus and enabling them to communicate with out depending on one other",
+    "point2": "<strong>Tools:</strong><br><strong>Developers</strong>Anypoint Studio along with Maven & Java",
+    "point3": "<strong>Admin:</strong>Any Point Tool (web based)",
+    "point4": "<strong>Postman:</strong>For Validation of API's",
+    "point5":"<strong>Apache Jmeter:</strong> For Performance Testing.",
+     "point6":"",
+     "image": "<img src=\"https://www.mulesoft.com/sites/default/files/diagram-basic-esb.png\">"
+  },
+  {
+    "id":6,
+    "title": "What are business groups (BG)? (Max: 100 can be created)",
+    "content": "Business groups used to manage anypoint resources including API's, applications.",
+    "point1": "Each Business group has its own set of permissons and roles",
+    "point2": "Organized in a hierarchial tree where the top level BG is root",
+    "point3": "Each BG you create can have one direct parent and multiple children",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/2015/06/Anypoint_Platform.png\"><img src=\"https://www.caeliusconsulting.com/blogs/wp-content/uploads/2021/03/bg-Step-3.png\">"
+  }
+]

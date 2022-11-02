@@ -1,5 +1,5 @@
 import ReactHtmlParser from "react-html-parser";
-import MULEDATA from "./mule.json";
+import MULEDATA from "./questions.json";
 import { useState } from "react";
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -11,7 +11,7 @@ const App = () => {
           <input
             type="text"
             className="input"
-            placeholder="Search.."
+            placeholder="Search for a Topic..."
             onChange={(event) => {
               setSearchTerm(event.target.value);
             }}
@@ -19,7 +19,8 @@ const App = () => {
           {MULEDATA.filter((val) => {
             if (searchTerm === "") {
               // return val;
-            } else if (val.title.toLowerCase().includes(searchTerm.toLowerCase()) || val.content.toLowerCase().includes(searchTerm.toLowerCase()) || val.point1.toLowerCase().includes(searchTerm.toLowerCase()) || val.point2.toLowerCase().includes(searchTerm.toLowerCase()) || val.point3.toLowerCase().includes(searchTerm.toLowerCase()) || val.point4.toLowerCase().includes(searchTerm.toLowerCase()) || val.point5.toLowerCase().includes(searchTerm.toLowerCase()) || val.point6.toLowerCase().includes(searchTerm.toLowerCase())) {
+              //  } else if (val.title.toLowerCase().includes(searchTerm.toLowerCase()) || val.content.toLowerCase().includes(searchTerm.toLowerCase()) || val.point1.toLowerCase().includes(searchTerm.toLowerCase()) || val.point2.toLowerCase().includes(searchTerm.toLowerCase()) || val.point3.toLowerCase().includes(searchTerm.toLowerCase()) || val.point4.toLowerCase().includes(searchTerm.toLowerCase()) || val.point5.toLowerCase().includes(searchTerm.toLowerCase()) || val.point6.toLowerCase().includes(searchTerm.toLowerCase())) {
+            } else if (val.title.toLowerCase().includes(searchTerm.toLowerCase())) {
               return val;
             }
           }).map((val, key) => {
