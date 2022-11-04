@@ -70,5 +70,17 @@
     "point5":"",
      "point6":"",
      "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/2015/06/Anypoint_Platform.png\"><img src=\"https://www.caeliusconsulting.com/blogs/wp-content/uploads/2021/03/bg-Step-3.png\">"
+  },
+    {
+    "id":7,
+    "title": "What is Runtime Manager? (cloudhub / hybrid)",
+    "content": "With Runtime Manager, you can deploy, manage, and monitor your Mule applications in a sandbox, staging, or production environment from one central location, whether your apps are deployed in the cloud or on-premises.",
+    "point1": "<strong>You can use Runtime Manager in these scenarios:</strong> <br> <strong>1. CloudHub:</strong> CloudHub is a complete integration platform as a service (iPaaS) that automatically meets all of your server needs without requiring any configuration or customization, including object store infrastructure, monitoring, troubleshooting, and scheduling. <br> ---->For applications deployed to CloudHub, you can use Insight for analytics and monitoring.",
+    "point2": "<strong>3. Hybrid:</strong> Your on-premises Mule servers host your app deployments and you use the Anypoint Platform Runtime Manager cloud console to manage them.",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/rtm-overview.png\">"
   }
 ]
