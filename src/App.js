@@ -27,7 +27,7 @@ const App = () => {
             return (
               <div className="box" key={val.id}>
                 <h4 className="heading">{val.title}</h4>
-                <p className="paragraph">{val.content}</p>
+                <p className="paragraph">{ReactHtmlParser(val.content)}</p>
                 <p className="paragraph">{ReactHtmlParser(val.point1)}</p>
                 <p className="paragraph">{ReactHtmlParser(val.point2)}</p>
                 <p className="paragraph">{ReactHtmlParser(val.point3)}</p>

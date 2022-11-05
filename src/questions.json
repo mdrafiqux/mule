@@ -73,7 +73,7 @@
   },
     {
     "id":7,
-    "title": "What is Runtime Manager? (cloudhub / hybrid)",
+    "title": "What is Runtime Manager? ",
     "content": "With Runtime Manager, you can deploy, manage, and monitor your Mule applications in a sandbox, staging, or production environment from one central location, whether your apps are deployed in the cloud or on-premises.",
     "point1": "<strong>You can use Runtime Manager in these scenarios:</strong> <br> <strong>1. CloudHub:</strong> CloudHub is a complete integration platform as a service (iPaaS) that automatically meets all of your server needs without requiring any configuration or customization, including object store infrastructure, monitoring, troubleshooting, and scheduling. <br> ---->For applications deployed to CloudHub, you can use Insight for analytics and monitoring.",
     "point2": "<strong>3. Hybrid:</strong> Your on-premises Mule servers host your app deployments and you use the Anypoint Platform Runtime Manager cloud console to manage them.",
@@ -82,5 +82,113 @@
     "point5":"",
      "point6":"",
      "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/rtm-overview.png\">"
+  },
+   {
+    "id":8,
+    "title": "Different Enviornment in Runtime Manager? (QA/Preprod)",
+    "content": "If you have multiple environments in your organization, you can switch between them. From any application in Anypoint Platform, you can switch to a different environment.",
+    "point1": "1. Click the current environment in the top left corner of Runtime Manager.",
+    "point2": "2. Select the environment to which you want to switch",
+    "point3": "3. Click Switch.",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/managing-deployed-applications-0e10f.png\">"
+  },
+   {
+    "id":9,
+    "title": "How to deploy mule apps?",
+    "content": "You can deploy mule apps to cloudhub from Anypoing Runtime Manager, AnyPoint Studio, Cloudhub CLI",
+    "point1": "<strong>Deploying Mule app through CLI</strong> <br> Enter your username: <mark>anypoint-cli --username=\"user\"</mark>",
+    "point2": "<mark>runtime-mgr cloudhub-application deploy myMuleApp /Users/exported-app-folder/my-mule-app.zip<mark>",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/cloudhub-deploy-app.png\">"
+  },
+   {
+    "id":10,
+    "title": "What are Servers, Server Groups, and Clusters?",
+    "content": "servers, server groups, and clusters that reside on-premises.",
+    "point1": "1. After setting up a server, you can add it to a server group or cluster. ",
+    "point2": "2. Then, select the server, group, or cluster as the deployment target for your applications.",
+    "point3": "3. When using a server group, instances of the applications are completely isolated from each other. In a cluster configuration, the nodes are aware of one another and share common information and synchronize statuses.",
+    "point4": "4. All servers in a server group or clusters must have the same Mule runtime engine version and Runtime Manager agent version.",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://blogs.perficient.com/files/2016/04/local-servers.jpg\">"
+  },
+   {
+    "id":11,
+    "title": "Different Alerts in Runtime Manager?",
+    "content": "You can set up alerts to send email notifications when application or server events occur.",
+    "point1": "<mark>Application Deployed / Application Failed</mark>",
+    "point2": "<mark>CPU Usage / Memory Usage</mark> is equal or above 80% for atleast 10 Minutes",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\">"
+  },
+   {
+    "id": 12,
+    "title": "How to troubleshoot Applications?",
+    "content": "You can access information to help you troubleshoot applications using the following tools:",
+    "point1": "<strong>Insight:</strong>You can access a dashboard with key metrics and see events at an individual transaction level of detail.",
+    "point2": "<strong>API Functional Monitoring:</strong>Using API functional monitoring, you can automate testing and generate reports to verify API functionality and validate the results that the API generates. You can monitor APIs at each stage of the software development life cycle and in production.",
+    "point3": "<strong>View Application Log data:</strong>You can access a log of events occurring to your application and the CloudHub workers they run on. <br> For applications deployed to your own servers, you can export log data to third-party software to view there.",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\">"
+  },
+   {
+    "id": 13,
+    "title": "What is Cloudhub?",
+    "content": "CloudHub is an <mark>&nbsp;integration platform as a service (iPaaS)&nbsp;</mark> where you can deploy applications, integrate on-premises applications with cloud services",
+    "point1": "Easy Scalability",
+    "point2": "Integration with Anypoint Studio",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\">"
+  },
+   {
+    "id":14,
+    "title": "What is a Worker?",
+    "content": "Worker is a dedicated instance of mule hosted in AWS to run integrated applications.",
+    "point1": "<strong>Features:</strong>",
+    "point2": "<strong>1.Capacity:</strong>Each Worker will have a specific amount of capacity to process data. ",
+    "point3": "<strong>2.Isolation:</strong>Each worker run in a separate container for each other application. ",
+    "point4": "<strong>3.Manageability:</strong> Each worker is deployed and managed independently. ",
+    "point5":"<strong>4.Locality:</strong> Each Worker runs in a specific worker cloud such as Asia Specific / US / EU ",
+     "point6":"",
+     "image": "<img src=\"\">"
+  },
+   {
+    "id":15,
+    "title": "What is VCore?",
+    "content": "A unit of compute capacity for processing on CloudHub, which is equal to one virtual core.",
+    "point1": "<mark>1Vcore - 10 Apps</mark>",
+    "point2": "0.1 Vcore - Can be consumed for 1 Mule Application",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/img_6059d59ace619.png\">"
+  },
+   {
+    "id":16,
+    "title": "What is Listener?",
+    "content": "It enables to setup an http server and trigger flows when receiving http request.",
+    "point1": "We can choose what methods that source accept such as GET and POST or a list of methods",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://dz2cdn1.dzone.com/storage/temp/2657609-picture2.png\">"
   }
 ]
