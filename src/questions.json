@@ -190,5 +190,17 @@
     "point5":"",
      "point6":"",
      "image": "<img src=\"https://dz2cdn1.dzone.com/storage/temp/2657609-picture2.png\">"
+  },
+   {
+    "id":17,
+    "title": "What is Logger?",
+    "content": "This core component helps you to monitor and debug mule applications by logging important information such as error message, status notifications, payloads and so on.",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\">"
   }
 ]
