@@ -9,7 +9,7 @@
     "point4": "2. Rigid Architecture – no space for change<br>3. Reliability – if one of the system fail then there is no reliable way of putting that system out of network and all communication with the system will be lost",
     "point5":"4. Tightly Coupled – each system is connected with all other system so change in one system need a change in many different system<br><strong>Advantages</strong><br>1. Remove Earlier complexities <br> 2. Increase customer engagement <br> 3. Improve Agality",
      "point6":"",
-     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/2017/07/spaghetti-code.png\"> <img src=\"https://eshiasolutions.com/wp-content/uploads/2021/08/What-is-MuleSoft-A-simplified-look.jpg\">"
+     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/2017/07/spaghetti-code.png\" style=\"width: 40%;\"> <img src=\"https://eshiasolutions.com/wp-content/uploads/2021/08/What-is-MuleSoft-A-simplified-look.jpg\" style=\"width: 40%;\">"
   },
   {
     "id":2,
@@ -69,7 +69,7 @@
     "point4": "",
     "point5":"",
      "point6":"",
-     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/2015/06/Anypoint_Platform.png\"><img src=\"https://www.caeliusconsulting.com/blogs/wp-content/uploads/2021/03/bg-Step-3.png\">"
+     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/2015/06/Anypoint_Platform.png\" style=\"width: 40%;\"><img src=\"https://www.caeliusconsulting.com/blogs/wp-content/uploads/2021/03/bg-Step-3.png\" style=\"width: 40%;\">"
   },
     {
     "id":7,
@@ -81,7 +81,7 @@
     "point4": "",
     "point5":"",
      "point6":"",
-     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/rtm-overview.png\">"
+     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/rtm-overview.png\" style=\"width: 40%;\">"
   },
    {
     "id":8,
@@ -93,7 +93,7 @@
     "point4": "",
     "point5":"",
      "point6":"",
-     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/managing-deployed-applications-0e10f.png\">"
+     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/managing-deployed-applications-0e10f.png\" style=\"width: 40%;\">"
   },
    {
     "id":9,
@@ -105,7 +105,7 @@
     "point4": "",
     "point5":"",
      "point6":"",
-     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/cloudhub-deploy-app.png\">"
+     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/cloudhub-deploy-app.png\" style=\"width: 40%;\">"
   },
    {
     "id":10,
@@ -201,6 +201,18 @@
     "point4": "",
     "point5":"",
      "point6":"",
-     "image": "<img src=\"\">"
-  }
+     "image": "<img src=\"https://docs.mulesoft.com/mule-runtime/4.4/_images/logger-flow.png\">"
+  },
+  {
+   "id":18,
+   "title": " What are Anypoint Connectors?",
+   "content": "Anypoint Connectors can receive or send messages between Mule and one or more external sources, such as files, databases, or Web services.",
+   "point1": "Connectors in Mule are either <strong>endpoint-based</strong> or <strong>operation-based</strong>",
+   "point2": "<strong>Endpoint-Based Connectors :</strong> <br> Endpoint-based connectors are configured as either inbound or outbound endpoints in a flow. <br> ->Inbound endpoints serve as a message source for a flow. <br> -> Outbound endpoints can occur mid-flow or at the end of flows, and send information to external systems.",
+   "point3": "<img src=\"https://docs.mulesoft.com/mule-runtime/3.9/_images/endpointbased.png\"  style=\"width: auto;\">",
+   "point4": "<strong>Operation-Based Connectors :</strong> <br> When you add an operation-based connector to your flow, you immediately define a specific operation for that connector to perform.",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"https://docs.mulesoft.com/mule-runtime/3.9/_images/operationbased.png\"  style=\"width: auto;\">"
+ }
 ]

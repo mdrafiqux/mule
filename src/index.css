@@ -34,3 +34,24 @@ code {
     width: 100%;
   }
 }
+.box{
+  background-color: #f1f2f3;
+}
+.questions-list{
+  padding: 20px;
+  background-color: #f1f2f3;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.answers{
+  padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 8px;
+}
+.pad-lr-20{
+  padding: 20px;
+}
+ul li:last-child{
+  margin-bottom: 10px;
+}
