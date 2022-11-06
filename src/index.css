@@ -30,7 +30,7 @@ code {
   display: inline-block;
 }
 @media only screen and (max-width: 600px) {
-  .box img {
+  .box img, .paragraph img {
     width: 100% !important;
   }
 }
