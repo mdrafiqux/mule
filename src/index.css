@@ -65,11 +65,13 @@ ul li:last-child{
   height: 30px;
   color: #3273dc;
   cursor: pointer;
+  background-color: #fff;
+    border-radius: 50px;
 }
 .top-btn button{
   border: 0;
   background: none;
   position: fixed;
-  right: 50px;
-  bottom: 50px;
+  right: 10px;
+  bottom: 10px;
 }
