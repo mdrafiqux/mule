@@ -214,5 +214,17 @@
    "point5":"",
     "point6":"",
     "image": "<img src=\"https://docs.mulesoft.com/mule-runtime/3.9/_images/operationbased.png\"  style=\"width: auto;\">"
+ },
+ {
+   "id":19,
+   "title": "What is API led Connectivity?",
+   "content": "Its a methodological way to connect data through applications through Reusable API's, these API's are developed to play specific role. ",
+   "point1": "1. Unlocking data from systems",
+   "point2": "2. Composing data into processes or delivering an experience.",
+   "point3": "<strong>API led connectivity falls into 3 categories</strong>",
+   "point4": "--><strong>Experience API:</strong> These API's connect with clients it involves only the transformation of data.",
+   "point5":"--><strong>Process API:</strong> These API's are used to implment common business logic and it should be reusable across the organizations.",
+    "point6":"--><strong>System API:</strong> These API's are mainly used to access core systems/legacy systems and also we can modify with out touching expericne layer or process layer",
+    "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/2017/07/api-led-connectivity.png\" style=\"width: auto;\">"
  }
 ]

@@ -1,6 +1,7 @@
 import ReactHtmlParser from "react-html-parser";
 import MULEDATA from "./questions.json";
 import { useState } from "react";
+import GoToTop from "./GoToTop";
 
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -68,7 +69,7 @@ const App = () => {
           })
         }
         {
-         MULEDATA.map( (questionblocks,key) => {
+         MULEDATA.map( (questionblocks, key) => {
             return(
               <>
               <div className="" key={questionblocks.id}>
@@ -95,6 +96,9 @@ const App = () => {
           })
         }
       
+      </div>
+      <div className="wrapper-div">
+      <GoToTop />
       </div>
     </>
   );
