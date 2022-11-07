@@ -109,8 +109,8 @@
   },
    {
     "id":10,
-    "title": "What are Servers, Server Groups, and Clusters?",
-    "content": "servers, server groups, and clusters that reside on-premises.",
+    "title": "What are servers, server Groups, and Clusters?",
+    "content": "Both server groups and clusters run applications in multiple distributed nodes. When using a server group, instances of the applications are completely isolated from each other. In a cluster configuration, the nodes are aware of one another and share common information and synchronize statuses.",
     "point1": "1. After setting up a server, you can add it to a server group or cluster. ",
     "point2": "2. Then, select the server, group, or cluster as the deployment target for your applications.",
     "point3": "3. When using a server group, instances of the applications are completely isolated from each other. In a cluster configuration, the nodes are aware of one another and share common information and synchronize statuses.",
@@ -226,5 +226,53 @@
    "point5":"--><strong>Process API:</strong> These API's are used to implment common business logic and it should be reusable across the organizations.",
     "point6":"--><strong>System API:</strong> These API's are mainly used to access core systems/legacy systems and also we can modify with out touching expericne layer or process layer",
     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/2017/07/api-led-connectivity.png\" style=\"width: auto;\">"
- }
+ },
+  {
+    "id":20,
+    "title": "What is Mulesoft cloudhub architecture? (Platform Services / Worker Cloud)",
+    "content": "Cloudhub integrates two major components ",
+    "point1": "1. Platform Sevices <br> 2. Worker Clould <br> These two components and run time manager work together to run mule application in the cloud",
+    "point2": "<strong>Platform Services:</strong><br>Cloudhub shares a set of platform services including cloudhub services, alerting, logging, account management vpc, loadbalancer, vpn ",
+    "point3": "<strong>Worker Cloud:</strong><br>It’s a cloud based elastic mule instance that runs integration applications. ",
+    "point4": "We can use the console to monitor and manage the applications while it is running. ",
+    "point5":"(start, stop, restart, delete) the application <br>Monitor & Troubleshooting <br> Updating the application  <br> Managing Logs, insights, notifications, worker monitoring ",
+     "point6":"Managing servers, create clusters etc… ",
+     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/architecture-diagram.png\">"
+  },
+   {
+    "id":21,
+    "title": "What is Server?",
+    "content": "Anypoint Runtime Manager provides an interface to manage your on-premises servers. You can manage servers either individually or in server groups or clusters.",
+    "point1": "Servers communicate with Runtime Manager using Runtime Manager agent. After adding a server you deploy applications to the Mule instance. You can also view information about the environment where you installed Mule",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\">"
+  },
+   {
+    "id":22,
+    "title": "What is Clustering in Mulesoft?",
+    "content": "A cluster is a set of up to eight servers that act as a single deployment target and high-availability processing unit. ",
+    "point1": "Application instances in a cluster are aware of each other, share common information, and synchronize statuses.",
+    "point2": "If one server fails, another server takes over processing applications. A cluster can run multiple applications.",
+    "point3": "<strong>Benifits of Clustering:</strong><br> 1. Clustering helps in improving application performance by dividing the workload between nodes/servers in a cluster. ",
+    "point4": "2. Horizontal scaling can be done wherever required (Increasing Workers) (means Increase count of servers). ",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\">"
+  },
+   {
+    "id":23,
+    "title": "Multicast vs Unicast Clusters",
+    "content": "<strong>Unicast:</strong>A unicast cluster requires that you configure the IP addresses of the nodes in the cluster. (Default Port: 5071)",
+    "point1": "If a server has multiple interfaces use the internal IP Address that allows the node to directly communicate with other nodes. ",
+    "point2": "<strong>Multicast:</strong>A multicast cluster comprises servers that automatically detect each other. Servers that are part of a multicast cluster must be on the same network segment.",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\">"
+  }
 ]
