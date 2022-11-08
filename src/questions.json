@@ -274,5 +274,125 @@
     "point5":"",
      "point6":"",
      "image": "<img src=\"\">"
-  }
+  },
+  {
+   "id":24,
+   "title": "Server Group Vs Cluster?",
+   "content": "Both server groups and clusters run applications in multiple distributed nodes",
+   "point1": "<strong>Server Group:</strong> Instances of the applications are completely isolated from each other.",
+   "point2": "<strong>Cluster:</strong> Nodes are aware of each other and share common configuration and synchronize statuses.",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"https://i.ibb.co/MpHP47r/servergroup-vs-clusters.png\">"
+ },
+ {
+   "id":25,
+   "title": "What is TLS? (Transport Layer Security)",
+   "content": "It is a widely adapted security protocol designed to facilitate privacy and data security for communication over the internet.",
+   "point1": "Current Version: TLSv1.3",
+   "point2": "Older Versions: (TLSv1.0, TLSv1.1, TLSv1.2)",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"\">"
+ },
+ {
+   "id":26,
+   "title": "What is Any Point Exchange in Mulesoft?",
+   "content": "Anypoint Exchange is a catalog of reusable assets such as APIs, policies, API spec fragments, API groups, templates, examples, custom assets, and integration assets such as connectors. ",
+   "point1": "",
+   "point2": "",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"https://docs.mulesoft.com/exchange/_images/ex2-old-search-landing.png\">"
+ },
+ {
+   "id":27,
+   "title": "What is API Manager?",
+   "content":"1. It's a component of AnyPoint Platform for Managing API's",
+   "point1": "2. Used to Apply Security Policies on API's",
+   "point2": "3. Manage Client Access",
+   "point3": "4. Gain critical insights into your API reliability, performance, and compliance",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"https://www.mulesoft.com/sites/default/files/2022-02/MS_APIManager_Feature_1.svgz\">"
+ },
+ {
+   "id":28,
+   "title": "What is Api AUTO Discovery?",
+   "content": "1. Api auto discovery is used to pair the API in api manager to a deployed mule application",
+   "point1": "2. When auto discovery is correctly configured in mule app we can say that our mule app api is tracked or paired to api manager",
+   "point2": "<a href=\"https://apisero.com/api-auto-discovery-for-mule-4-application\" target=\"_blank\">AUTO DISCOVERY SETUP</a>",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"\">"
+ },
+ {
+   "id":29,
+   "title": "What is Design Center?",
+   "content": "We can design and build API's and integrations using <strong>OAS(Open API specifications)/RAML(Restful API Modeling Language)</strong>",
+   "point1": "1. Design APIs rapidly <br> <img src=\"https://www.mulesoft.com/sites/default/files/2018-07/MS_AnypointPlatform_DesignerCenter_Benefit.png\">",
+   "point2": "2. Connect to any system <br>",
+   "point3": "3. Map Data in Real time",
+   "point4": "4.Test and Deploy Applications",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"\">"
+ },
+ {
+   "id":30,
+   "title": "Rest Vs SOAP Api's",
+   "content": "Rest is Better choice for simple CRUD oriented services <br><strong>REST:</strong> Represents Http Methods (GET, POST, PUT, DELETE)",
+   "point1": "1. Easier to use and light weight",
+   "point2": "2. Human Readable and easy to understand <br> 3. Invokes services using URL ",
+   "point3": "<strong>SOAP:</strong> Simple Object Access Protocol",
+   "point4": "1. Doesn't support error handling",
+   "point5":"2. Difficult to Read",
+    "point6":"3. Invokes calls by using RPC Method.",
+    "image": "<img src=\"https://www.sepaforcorporates.com/wp-content/uploads/2018/05/rest-api-versus-soap-api-2.jpg\">"
+ },
+ {
+   "id":31,
+   "title": "What are API Manager Alerts?",
+   "content": "1. Request Count <br> 2. Response Code <br> 3. Policy Violation <br> 4. Response Time",
+   "point1": "",
+   "point2": "",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"\">"
+ },
+ {
+   "id":32,
+   "title": "What are HTTP Methods? (Post/GEt/Put/Delete)), Whare are Status Codes?",
+   "content": "Post -> Create <br> GET (Read) <br> PUT (Update) <br> Delete (Delete)",
+   "point1": "<strong>Status Codes (100-599)</strong>",
+   "point2": "1xx - Information Response",
+   "point3": "2xx - Success",
+   "point4": "3xx - Redirection",
+   "point5": "4xx - client errors",
+    "point6": "5xx - server errors",
+    "image": "<img src=\"\">"
+ },
+ {
+   "id":33,
+   "title": "What are Security Policies used by Admin?",
+   "content": "These are used under API Manager for security like",
+   "point1": "1. Oauth Access Token enforcement <br> 2. JWT Validation (Json Web Token) -> All calls to use the API must include JWT",
+   "point2": "3. IP Block List (Denies service calls) <br> 4. IP Allow list (Allows service calls)",
+   "point3": "5. Rate Limiting (specifies maximum value for the number of messages that are processed) <br> 6. Spike Control (Controls spikes in traffice by limiting the number)",
+   "point4": "7. Client ID Enforcement (Calls to API must include client id and client secret) <br> 8. Cross-Origin Resource sharing (Mechanism that allows javascript)",
+   "point5":"9. Message logging (logs custom messages beteween policies and flows)",
+    "point6":"",
+    "image": "<img src=\"\">"
+ }
 ]

@@ -75,3 +75,6 @@ ul li:last-child{
   right: 10px;
   bottom: 10px;
 }
+.paragraph a{
+  text-decoration: underline;
+}
