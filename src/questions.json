@@ -498,8 +498,8 @@
    "point1": "1. Each anypoint VPN connection consists of two tunnels that enable you to connect to a single Public IP address at a remote location",
    "point2": "VPN Routing Types",
    "point3": "",
-   "point4": "<strong>1. Static Routing </strong> <br> 1. It adjusts the routes automatically <br> 2. Ideal for Small Networks",
-   "point5":"<strong>2. Dynamic Routing</strong> <br> 1. Requires you to specify the routes in your network that are accessible through Anypoint VPN <br> 2. Ideal for Large Networks",
+   "point4": "<strong>1. Static Routing </strong> <br> 1. Requires you to specify the routes in your network that are accessible through Anypoint VPN <br> 2. Ideal for Small Networks",
+   "point5":"<strong>2. Dynamic Routing</strong> <br> 1. It adjusts the routes automatically <br> 2. Ideal for Large Networks",
     "point6":"",
     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/img_6059c0e201c72.png\" style=\"width:60%;\">"
  },
