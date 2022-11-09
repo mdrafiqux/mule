@@ -394,5 +394,89 @@
    "point5":"9. Message logging (logs custom messages beteween policies and flows)",
     "point6":"",
     "image": "<img src=\"\">"
+ },
+ {
+   "id":34,
+   "title": "What is Thread Dump and Heap Dump?",
+   "content": "Sometimes Mule stops working, No error messages, no exceptions in logs, something in depth mule freezes, so we need more information as possible from thread dumps, heap dumps",
+   "point1": "<strong>Thread Dump:</strong> is used to diagnose CPU Spikes, deadlocks, poor response times, memory problems, unresponsive applications",
+   "point2": "<strong>Heap Dump:</strong>is used to detect memory leaks.",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"\">"
+ },
+ {
+   "id":35,
+   "title": "What is Autoscaling in cloud hub?",
+   "content": "You can define policies that respond to CPU or memory usage thresholds by scaling up or scaling down the processing resources used by an application",
+   "point1": "To use autoscaling feature org/business group must have a ela(enterprise license agreement)",
+   "point2": "",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/autoscale-create-policy.png\"><img src=\"https://docs.mulesoft.com/runtime-manager/_images/policy-form.png\">"
+ },
+ {
+   "id":36,
+   "title": "What is Static IP?",
+   "content": "To enable a static IP for your application, go to the Static IPs tab in the application settings page on the Runtime Manager UI, then enable the Use Static IP checkbox:",
+   "point1": "",
+   "point2": "",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"https://help.mulesoft.com/servlet/rtaImage?eid=ka42T000000PG1W&feoid=00N34000005C99j&refid=0EM2T000001Kel6\">"
+ },
+ {
+   "id":37,
+   "title": "What is Analytics? ",
+   "content": "it is used to analyze how API's are performing, from API manager we can access analytics dashboard",
+   "point1": "",
+   "point2": "",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"\">"
+ },
+ {
+   "id":38,
+   "title": "What is Anypoint Monitoring?",
+   "content": "We can see overview of application like Average response time, erors, cpu utilization, heap used, jvm thread count and performance",
+   "point1": "",
+   "point2": "",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"\">"
+ },
+ {
+   "id":39,
+   "title": "What is Anypoint VPC?",
+   "content": "It allows us to create virtual private cloud to host cloudhub your workers",
+   "point1": "It extends your corporate network and allows cloudhub workers to access resources behind corporate firewall",
+   "point2": "We can connect on prem data centers through a secured vpn tunnel",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/virtual-private-cloud-78b5f.png\">"
+ },
+ {
+   "id":40,
+   "title": "CIDR (classless inter domain routing) in mulesoft VPC",
+   "content": "Its the way of allocating IP Addresses and IP routing in more efficient manner",
+   "point1": "",
+   "point2": "",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"\">"
  }
 ]
