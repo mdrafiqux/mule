@@ -562,5 +562,17 @@
    "point5":"",
     "point6":"",
     "image": "<img src=\"\">"
- }
+ },
+  {
+    "id":48,
+    "title": "What is a scheduler in Mulesoft?",
+    "content": "The Scheduler component enables you to trigger a flow when a time-based condition is met.",
+    "point1": "You can configure it to be triggered at a regular interval or give it a more flexible cron expression. ",
+    "point2": "<strong>1. Fixed Frequency:</strong>You can use the following parameters to set a Scheduler to trigger a flow at a regular intervals. Options(Frequency: 1000, Start Delay: 0, Time Unit: Milliseconds)",
+    "point3": "<strong>2. Cron Expression:</strong>Cron is a widely used standard for describing time and date information.",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\">"
+  }
 ]
