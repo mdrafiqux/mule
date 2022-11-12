@@ -8,9 +8,9 @@ const App = () => {
   const [show, setShow] = useState(false);
   return (
     <>
-      <div className="container">
+      <div className="container sticky-div">
         <div className="app">
-          <h2 className="mainheading">Search for Mule Docs</h2>
+          {/* <h2 className="mainheading">Search for Mule Docs</h2> */}
           <input
             type="text"
             className="input"
@@ -58,7 +58,7 @@ const App = () => {
                   show &&  
                   <>
                   <div className="">
-                  <ul><li><a href={"#"+questions.id}>{questions.id}. {questions.title}</a></li></ul>
+                  <ul><li><a href={"#"+questions.id} className="anchor">{questions.id}. {questions.title}</a></li></ul>
                   </div>
                   </>
                                   }

@@ -19,10 +19,10 @@ code {
   font-size: 16px;
 }
 .app {
-  padding: 20px;
+  padding: 20px 20px 10px 20px;
 }
 .app input {
-  margin: 20px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 .box img {
@@ -42,6 +42,7 @@ code {
   background-color: #f1f2f3;
   border-radius: 8px;
   margin-bottom: 20px;
+  scroll-margin: 132px 0 0 0px;
 }
 .answers{
   padding: 20px;
@@ -50,7 +51,7 @@ code {
     border-radius: 8px;
 }
 .pad-lr-20{
-  padding: 20px;
+  padding: 0 20px 0px 20px;
 }
 ul li:last-child{
   margin-bottom: 10px;
@@ -75,6 +76,15 @@ ul li:last-child{
   right: 10px;
   bottom: 10px;
 }
+.button{
+  margin-bottom: 10px;
+}
 .paragraph a{
   text-decoration: underline;
+}
+.sticky-div{
+  position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff;
 }
