@@ -20,6 +20,7 @@ code {
 }
 .app {
   padding: 20px 20px 10px 20px;
+  border-bottom: 1px solid #e7e7e7;
 }
 .app input {
   margin: 10px 0 10px 0;
