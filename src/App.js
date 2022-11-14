@@ -18,10 +18,11 @@ const App = () => {
   };
   return (
     <>
-      <div className="container sticky-div">
+      <div className="container">
         <div className="app">
           {/* <h2 className="mainheading">Search for Mule Docs</h2> */}
-         
+          <div className="height-135">
+         <div className="fixed-container">
           <input
           id="searchcontrol"
             type="text"
@@ -29,13 +30,15 @@ const App = () => {
             placeholder="Search for a Topic..."
             onChange={(event) => {
               setSearchTerm(event.target.value);
+               
             }}
           />
           <div>
            <button className="button is-link " type="button" onClick={()=>setShow(!show)}>{show === true ? "Hide Index" : "Show Index"}</button>
            <button className="button is-link " type="button" onClick={handleClick}>Clear Search</button>
            </div>
-          
+          </div>
+          </div>
           {MULEDATA.filter((val) => {
             if (searchTerm === "") {
               // return val;
@@ -67,7 +70,7 @@ const App = () => {
          MULEDATA.map( (questions,key) => {
             return(
               <>
-              <div className="" key={questions.id}>
+              <div className="search-list" key={questions.id}>
                 {
                   show &&  
                   <>
@@ -86,7 +89,7 @@ const App = () => {
          MULEDATA.map( (questionblocks, key) => {
             return(
               <>
-              <div className="" key={questionblocks.id}>
+              <div className="index-list" key={questionblocks.id}>
                 {
                   show &&  
                   <>

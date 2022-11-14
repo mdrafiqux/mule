@@ -33,8 +33,9 @@ code {
   .box img, .paragraph img {
     width: 100% !important;
   }
-  .sticky-div{
+  .fixed-container{
     width: 100% !important;
+    padding: 10px;
   }
 }
 .box{
@@ -105,3 +106,19 @@ body{
 /* .m-top-135{
   margin-top: 135px;
 } */
+
+.fixed-container{
+  position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 99;
+    max-width: 1344px;
+    width: 1344px;
+}
+.box:first-child {
+  margin-top: 135px;;
+}
+.height-135{
+  height: 135px;
+  max-height: 135px;
+}
