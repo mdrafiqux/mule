@@ -6,13 +6,24 @@ import GoToTop from "./GoToTop";
 const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [show, setShow] = useState(false);
+  const [message, setMessage] = useState('');
+  const handleChange = event => {
+    setSearchTerm(event.target.value);
+  };
+  const handleClick = () => {
+    // 👇️ clear input value
+    setSearchTerm('');
+    document.getElementById('searchcontrol').value='';
+    document.getElementById("searchcontrol").focus();
+  };
   return (
     <>
-      <div className="container">
+      <div className="container sticky-div">
         <div className="app">
           {/* <h2 className="mainheading">Search for Mule Docs</h2> */}
-          <div className="sticky-div">
+         
           <input
+          id="searchcontrol"
             type="text"
             className="input"
             placeholder="Search for a Topic..."
@@ -22,8 +33,9 @@ const App = () => {
           />
           <div>
            <button className="button is-link " type="button" onClick={()=>setShow(!show)}>{show === true ? "Hide Index" : "Show Index"}</button>
+           <button className="button is-link " type="button" onClick={handleClick}>Clear Search</button>
            </div>
-           </div>
+          
           {MULEDATA.filter((val) => {
             if (searchTerm === "") {
               // return val;
@@ -46,8 +58,8 @@ const App = () => {
               </div>
             );
           })}
-       
-      
+        </div>
+      </div>
       <div className="container pad-lr-20 m-top-135">
      
       
@@ -98,8 +110,6 @@ const App = () => {
           })
         }
       
-      </div>
-      </div>
       </div>
       <div className="wrapper-div">
       <GoToTop />

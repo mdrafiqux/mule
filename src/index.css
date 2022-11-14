@@ -81,6 +81,7 @@ ul li:last-child{
 }
 .button{
   margin-bottom: 10px;
+  margin-right: 5px;
 }
 .paragraph a{
   text-decoration: underline;
