@@ -18,10 +18,9 @@ code {
   font-weight: bold;
   font-size: 16px;
 }
-.app {
+/* .app {
   padding: 20px 20px 10px 20px;
-  border-bottom: 1px solid #e7e7e7;
-}
+} */
 .app input {
   margin: 10px 0 10px 0;
 }
@@ -30,8 +29,11 @@ code {
   width: 40%;
   display: inline-block;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   .box img, .paragraph img {
+    width: 100% !important;
+  }
+  .sticky-div{
     width: 100% !important;
   }
 }
@@ -75,7 +77,7 @@ ul li:last-child{
   background: none;
   position: fixed;
   right: 10px;
-  bottom: 10px;
+  bottom: 50%;
 }
 .button{
   margin-bottom: 10px;
@@ -85,7 +87,20 @@ ul li:last-child{
 }
 .sticky-div{
   position: sticky;
-    top: 0;
-    z-index: 1;
-    background: #fff;
+  max-width: 1344px;
+    width: 1344px;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  padding: 10px 20px 10px 20px;
+  box-shadow: 0 1rem 2rem hsl(0deg 0% 0% / 8%);
+  border-radius: 8px;
+  margin-bottom: 10px; 
 }
+body{
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+/* .m-top-135{
+  margin-top: 135px;
+} */

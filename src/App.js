@@ -8,9 +8,10 @@ const App = () => {
   const [show, setShow] = useState(false);
   return (
     <>
-      <div className="container sticky-div">
+      <div className="container">
         <div className="app">
           {/* <h2 className="mainheading">Search for Mule Docs</h2> */}
+          <div className="sticky-div">
           <input
             type="text"
             className="input"
@@ -21,6 +22,7 @@ const App = () => {
           />
           <div>
            <button className="button is-link " type="button" onClick={()=>setShow(!show)}>{show === true ? "Hide Index" : "Show Index"}</button>
+           </div>
            </div>
           {MULEDATA.filter((val) => {
             if (searchTerm === "") {
@@ -44,9 +46,9 @@ const App = () => {
               </div>
             );
           })}
-        </div>
-      </div>
-      <div className="container pad-lr-20">
+       
+      
+      <div className="container pad-lr-20 m-top-135">
      
       
         {
@@ -96,6 +98,8 @@ const App = () => {
           })
         }
       
+      </div>
+      </div>
       </div>
       <div className="wrapper-div">
       <GoToTop />

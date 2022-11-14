@@ -146,10 +146,10 @@
    {
     "id": 13,
     "title": "What is Cloudhub?",
-    "content": "CloudHub is an <mark>&nbsp;integration platform as a service (iPaaS)&nbsp;</mark> where you can deploy applications, integrate on-premises applications with cloud services",
-    "point1": "Easy Scalability",
-    "point2": "Integration with Anypoint Studio",
-    "point3": "",
+    "content": "CloudHub is an <mark>&nbsp;integration platform as a service (iPaaS)&nbsp;</mark> iPaaS). <br> It enables you to deploy and run the application in the cloud via Runtime Manager.",
+    "point1": "1. Cloudhub is Scalable, multi-tenant, elastic, secure, and highly available iPaas",
+    "point2": "2. CloudHub is managed via the Runtime Manager console in the Anypoint platform",
+    "point3": "3. It enables you to deploy Mule applications from Anypoint Studio using the CloudHub API or the CloudHub Command Line Interface.",
     "point4": "",
     "point5":"",
      "point6":"",
@@ -158,10 +158,10 @@
    {
     "id":14,
     "title": "What is a Worker?",
-    "content": "Worker is a dedicated instance of mule hosted in AWS to run integrated applications.",
-    "point1": "<strong>Features:</strong>",
-    "point2": "<strong>1.Capacity:</strong>Each Worker will have a specific amount of capacity to process data. ",
-    "point3": "<strong>2.Isolation:</strong>Each worker run in a separate container for each other application. ",
+    "content": "Applications on CloudHub are run by one or more instances of Mule, called workers. Below is a list of some characteristics.",
+    "point1": "<strong>Charectaristics:</strong>",
+    "point2": "<strong>1.Capacity:</strong> Each worker has a specific amount of capacity to process data. You can select the size of your workers when configuring an application. ",
+    "point3": "<strong>2.Isolation:</strong> Each worker runs in a separate container from every other application.",
     "point4": "<strong>3.Manageability:</strong> Each worker is deployed and managed independently. ",
     "point5":"<strong>4.Locality:</strong> Each Worker runs in a specific worker cloud such as Asia Specific / US / EU ",
      "point6":"",
@@ -458,18 +458,18 @@
  {
    "id":39,
    "title": "What is Anypoint VPC?",
-   "content": "1. It allows us to create virtual private cloud to host your cloudhub workers",
-   "point1": "2. It extends your corporate network and allows cloudhub workers to access resources behind corporate firewall",
-   "point2": "3. We can connect on prem data centers through a secured vpn tunnel",
+   "content": "VPC stands for Virtual Private Cloud and it allows you to create logical or isolated networks in the cloud where you can deploy or run the resources securely.",
+   "point1": "1. Anypoint VPC allows you to extend your corporate network and allows cloudhub workers to connect resources behind the firewalls.",
+   "point2": "2. We can connect on prem data centers through a secured vpn tunnel.",
    "point3": "<strong>Charectaristics</strong>",
-   "point4": "Multiple VPC can be created in same region (Prod / NonProd)",
-   "point5":"Multiple environments can be mapped to same VPC",
-    "point6":"",
-    "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/virtual-private-cloud-78b5f.png\">"
+   "point4": "&#8658;Multiple VPC can be created in same region (Prod / NonProd).",
+   "point5":"&#8658;Multiple environments can be mapped to same VPC.",
+    "point6":"&#8658;Always create the VPC in the parent business group and share with sub business groups.",
+    "image": "<img src=\"https://i.ibb.co/wN3VFvb/vpc.jpg\">"
  },
  {
    "id":40,
-   "title": "CIDR (classless inter domain routing) in mulesoft VPC? (192.168.0.0/block size)",
+   "title": "CIDR (classless inter domain routing) VPC Sizing? (192.168.0.0/block size)",
    "content": "1. Its the way of allocating IP Addresses and IP routing in more efficient manner",
    "point1": "2. This method allocates IP Address/host in most efficient way and avoids wastage of IP Address.",
    "point2": "",
@@ -574,5 +574,17 @@
     "point5":"",
      "point6":"",
      "image": "<img src=\"\">"
-  }
+  },
+  {
+   "id":49,
+   "title": "What is Cloudhub Architecture?",
+   "content": "",
+   "point1": "",
+   "point2": "",
+   "point3": "",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"\">"
+ }
 ]
