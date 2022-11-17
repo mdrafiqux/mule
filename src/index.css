@@ -113,7 +113,9 @@ body{
     background-color: #ffffff;
     z-index: 99;
     max-width: 1344px;
-    width: 1344px;
+    width: 60%;
+    padding: 0px 10px 0 10px;
+    border-bottom: 1px solid #ccc;
 }
 .box:first-child {
   margin-top: 135px;;

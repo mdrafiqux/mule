@@ -586,5 +586,17 @@
    "point5":"",
     "point6":"",
     "image": "<img src=\"\">"
+ },
+ {
+   "id": 50,
+   "title": "What are VPC Firewall Rules?",
+   "content": "When you create an Anypoint Virtual Private Cloud (Anypoint VPC), you can add your own firewall rules to allow specific IP ranges and ports to reach your workers.",
+   "point1": "You can configure approximately 35 firewall rules per VPC",
+   "point2": "connections from anywhere through ports 8081 and 8082",
+   "point3": "Anypoint VPC through ports 8091 and 8092",
+   "point4": "",
+   "point5":"",
+    "point6":"",
+    "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/firewall-rules-page.png\">"
  }
 ]
