@@ -16,7 +16,7 @@ function App() {
   <div className="container-fluid">
     
 <div className="container">
-    <header className="d-flex justify-content-center py-3">
+    <header className="d-flex justify-content-center py-1">
       <ul className="nav nav-pills">
          <li className="nav-item"><NavLink className="nav-link"  to='/' >Home</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/accessmanagement'>Access Management</NavLink></li>

@@ -46,6 +46,9 @@ code {
   body{
     padding-top: 150px !important;
   }
+  .nav-pills{
+    justify-content: center;
+  }
   /* .fixed-container{
     width: 100% !important;
     padding: 10px;
