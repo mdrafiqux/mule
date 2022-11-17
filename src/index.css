@@ -33,13 +33,38 @@ code {
   .box img, .paragraph img {
     width: 100% !important;
   }
-  .fixed-container{
+  .nav-link{
+    padding: 0.2rem 1rem;
+  }
+  .nav-item{
+    height: 30px !important;
+  }
+  .py-3{
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  body{
+    padding-top: 150px !important;
+  }
+  /* .fixed-container{
     width: 100% !important;
     padding: 10px;
-  }
+  } */
 }
 .box{
   background-color: #f1f2f3;
+  padding: 20PX;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.search-list ul{
+  padding-left: 0;
+}
+.search-list li{
+  list-style: none;
+}
+.search-list ul li a{
+  text-decoration: none;
 }
 .questions-list{
   padding: 20px;
@@ -66,8 +91,7 @@ ul li:last-child{
     align-items: center;
 }
 .top-btn .fa-arrow-circle-up{
-  width: 30px;
-  height: 30px;
+  font-size: 40px;
   color: #3273dc;
   cursor: pointer;
   background-color: #fff;
@@ -87,6 +111,9 @@ ul li:last-child{
 .paragraph a{
   text-decoration: underline;
 }
+.paragraph img{
+  width: 60%;
+}
 .sticky-div{
   position: sticky;
   max-width: 1344px;
@@ -102,12 +129,13 @@ ul li:last-child{
 body{
   background-color: #ffffff;
   min-height: 100vh;
+  padding-top: 100px;
 }
 /* .m-top-135{
   margin-top: 135px;
 } */
 
-.fixed-container{
+/* .fixed-container{
   position: fixed;
     top: 0;
     background-color: #ffffff;
@@ -116,11 +144,28 @@ body{
     width: 60%;
     padding: 0px 10px 0 10px;
     border-bottom: 1px solid #ccc;
-}
+} */
 .box:first-child {
   margin-top: 135px;;
 }
 .height-135{
   height: 135px;
   max-height: 135px;
+}
+.navbar-nav .nav-link{
+  padding-left: 5px;
+}
+.navbar-collapse{
+  margin-top: 1rem;
+}
+.nav-item .nav-link.active{
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 4px;
+}
+.bg-light{
+  background-color: #f1f2f3;
+}
+.nav-item{
+  height: 40px;
 }
