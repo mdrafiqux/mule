@@ -18,7 +18,7 @@ function App() {
 <div className="container">
     <header className="d-flex justify-content-center py-1">
       <ul className="nav nav-pills">
-         <li className="nav-item"><NavLink className="nav-link"  to='/' >Home</NavLink></li>
+         <li className="nav-item"><NavLink className="nav-link"  to='/mule' >Home</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/accessmanagement'>Access Management</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/apimanager'>API Manager</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/runtimemanager'>Runtime Manager</NavLink></li>
@@ -43,7 +43,7 @@ function App() {
   </div>
 </nav>
    <Routes>
-    <Route path='/' element={<Home/>}></Route>
+    <Route path='/mule' element={<Home/>}></Route>
     <Route path='/accessmanagement' element={<Accessmanagement/>}></Route>
     <Route path='/apimanager' element={<Apimanager/>}></Route>
     <Route path='/runtimemanager' element={<Runtimemanager/>}></Route>
