@@ -35,9 +35,11 @@ code {
   }
   .nav-link{
     padding: 0.2rem 1rem;
+    font-size: 14px !important;
   }
   .nav-item{
-    height: 30px !important;
+    height: 24px !important;
+
   }
   .py-3{
     padding-top: 0.5rem !important;
@@ -171,4 +173,7 @@ body{
 }
 .nav-item{
   height: 40px;
+}
+p{
+  margin-bottom: 0.2rem;
 }

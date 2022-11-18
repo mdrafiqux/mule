@@ -1,0 +1,14 @@
+[
+  {
+    "id":1,
+    "title": "What is Access Management?",
+    "content": " The Anypoint Platform allows you to create and manage separate environments for deploying, which are independent from each other.",
+    "point1": "1. Sandbox for Dev and QA Testing",
+    "point2": "2. Prod for Live App",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 40%;\"> "
+  }
+]

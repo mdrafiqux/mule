@@ -8,10 +8,6 @@ import GoToTop from "../GoToTop";
 export function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [show, setShow] = useState(false);
-  // const [message, setMessage] = useState('');
-  // const handleChange = event => {
-  //   setSearchTerm(event.target.value);
-  // };
   const handleClick = () => {
     // 👇️ clear input value
     setSearchTerm('');
