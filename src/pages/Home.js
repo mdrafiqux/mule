@@ -62,8 +62,6 @@ export function Home() {
         </div>
       </div>
       <div className="container pad-lr-20 m-top-135">
-     
-      
         {
          MULEDATA.map((questions, key) => {
             return(
@@ -76,7 +74,7 @@ export function Home() {
                   <ul><li><a href={"#"+questions.id} className="anchor">{questions.id}. {questions.title}</a></li></ul>
                   </div>
                   </>
-                                  }
+                }
               </div>
               
               </>

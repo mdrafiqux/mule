@@ -18,13 +18,13 @@ function App() {
 <div className="container">
     <header className="d-flex justify-content-center py-1">
       <ul className="nav nav-pills">
-         <li className="nav-item"><NavLink className="nav-link"  to='/mule' >Home</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to='/accessmanagement'>Access Management</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to='/apimanager'>API Manager</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to='/runtimemanager'>Runtime Manager</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to='/apigovernance'>API Governance</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to='/visualizer'>Visualizer</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to='/monitoring'>Monitoring</NavLink></li>
+         <li className="nav-item"><NavLink className="nav-link"  to='/mule/home' >Home</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to='/mule/accessmanagement'>Access Management</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to='/mule/apimanager'>API Manager</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to='/mule/runtimemanager'>Runtime Manager</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to='/mule/apigovernance'>API Governance</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to='/mule/visualizer'>Visualizer</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to='/mule/monitoring'>Monitoring</NavLink></li>
       </ul>
     </header>
   </div>
@@ -43,13 +43,13 @@ function App() {
   </div>
 </nav>
    <Routes>
-    <Route path='/mule' element={<Home/>}></Route>
-    <Route path='/accessmanagement' element={<Accessmanagement/>}></Route>
-    <Route path='/apimanager' element={<Apimanager/>}></Route>
-    <Route path='/runtimemanager' element={<Runtimemanager/>}></Route>
-    <Route path='/apigovernance' element={<Apigovernance/>}></Route>
-     <Route path='/visualizer' element={<Visualizer/>}></Route>
-     <Route path='/monitoring' element={<Monitoring/>}></Route>
+    <Route path='/mule/home' exact  element={<Home/>}></Route>
+    <Route path='/mule/accessmanagement' exact  element={<Accessmanagement/>}></Route>
+    <Route path='/mule/apimanager' exact  element={<Apimanager/>}></Route>
+    <Route path='/mule/runtimemanager' exact  element={<Runtimemanager/>}></Route>
+    <Route path='/mule/apigovernance' exact  element={<Apigovernance/>}></Route>
+     <Route path='/mule/visualizer' exact  element={<Visualizer/>}></Route>
+     <Route path='/mule/monitoring' exact  element={<Monitoring/>}></Route>
    </Routes>
    </>
   )
