@@ -9,10 +9,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 .mainheading {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
-  padding: 20px 0 20px 0;
+  padding: 20px 0 10px 0;
 }
 .heading {
   font-weight: bold;
@@ -134,7 +134,7 @@ ul li:last-child{
 body{
   background-color: #ffffff;
   min-height: 100vh;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 /* .m-top-135{
   margin-top: 135px;

@@ -4,22 +4,6 @@ import ACCESSMANAGEMENTDATA from "../accessmanagement.json";
 import { useState } from "react";
 import GoToTop from "../GoToTop";
 
-// function Accessmanagement() {
-//   return (
-//     <>
-//     <div className="container">
-//       <h4>Access Management</h4>
-//       <p>
-//       The Anypoint Platform allows you to create and manage separate environments for deploying, which are independent from each other.
-//       </p>
-//       <ul>
-//         <li>Sandbox for Dev and QA Testing</li>
-//         <li>Production for Live App</li>
-//         </ul>
-//     </div>
-//     </>
-//   )
-// }
 
 export function Accessmanagement() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -34,7 +18,7 @@ export function Accessmanagement() {
     <>
       <div className="container">
         <div className="app">
-          {/* <h2 className="mainheading">Search for Mule Docs</h2> */}
+          <h2 className="mainheading">Access Management Topic</h2>
           <div className="height-135">
          <div className="fixed-container">
           <input

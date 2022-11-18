@@ -18,7 +18,7 @@ export function Home() {
     <>
       <div className="container">
         <div className="app">
-          {/* <h2 className="mainheading">Search for Mule Docs</h2> */}
+          <h2 className="mainheading">Search for All Mule Docs</h2>
           <div className="height-135">
          <div className="fixed-container">
           <input
