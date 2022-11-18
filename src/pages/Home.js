@@ -65,7 +65,7 @@ export function Home() {
      
       
         {
-         MULEDATA.map( (questions,key) => {
+         MULEDATA.map((questions, key) => {
             return(
               <>
               <div className="search-list" key={questions.id}>
