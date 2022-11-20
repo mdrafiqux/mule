@@ -71,8 +71,8 @@ export function Home() {
                   show &&  
                   <>
                   <div className="">
-                  {/* <ul><li><a href={"#"+questions.id} className="anchor">{questions.id}. {questions.title}</a></li></ul> */}
-                  <Link to={questions.id}>{questions.id}. {questions.title}</Link>
+                  <ul><li><a href={"#"+questions.id} className="anchor">{questions.id}. {questions.title}</a></li></ul>
+                
                   </div>
                   </>
                 }
