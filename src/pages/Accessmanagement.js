@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactHtmlParser from "react-html-parser";
-import MULEDATA from "../questions.json";
+import ACCESSMANAGEMENT from "../accessmanagement.json";
 import { useState } from "react";
 import GoToTop from "../GoToTop";
 
@@ -37,7 +37,7 @@ export function Accessmanagement() {
            </div>
           </div>
           </div>
-          {MULEDATA.filter((val) => {
+          {ACCESSMANAGEMENT.filter((val) => {
             if (searchTerm === "") {
               // return val;
               //  } else if (val.title.toLowerCase().includes(searchTerm.toLowerCase()) || val.content.toLowerCase().includes(searchTerm.toLowerCase()) || val.point1.toLowerCase().includes(searchTerm.toLowerCase()) || val.point2.toLowerCase().includes(searchTerm.toLowerCase()) || val.point3.toLowerCase().includes(searchTerm.toLowerCase()) || val.point4.toLowerCase().includes(searchTerm.toLowerCase()) || val.point5.toLowerCase().includes(searchTerm.toLowerCase()) || val.point6.toLowerCase().includes(searchTerm.toLowerCase())) {
@@ -65,7 +65,7 @@ export function Accessmanagement() {
      
       
         {
-         MULEDATA.map( (questions,key) => {
+         ACCESSMANAGEMENT.map( (questions,key) => {
             return(
               <>
               <div className="search-list" key={questions.id}>
@@ -84,7 +84,7 @@ export function Accessmanagement() {
           })
         }
         {
-         MULEDATA.map( (questionblocks, key) => {
+         ACCESSMANAGEMENT.map( (questionblocks, key) => {
             return(
               <>
               <div className="index-list" key={questionblocks.id}>

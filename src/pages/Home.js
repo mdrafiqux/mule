@@ -3,6 +3,7 @@ import ReactHtmlParser from "react-html-parser";
 import MULEDATA from "../questions.json";
 import { useState } from "react";
 import GoToTop from "../GoToTop";
+import { Link } from "react-router-dom";
 
 
 export function Home() {
@@ -28,7 +29,6 @@ export function Home() {
             placeholder="Search for a Topic..."
             onChange={(event) => {
               setSearchTerm(event.target.value);
-               
             }}
           />
           <div className="">
@@ -71,7 +71,8 @@ export function Home() {
                   show &&  
                   <>
                   <div className="">
-                  <ul><li><a href={"#"+questions.id} className="anchor">{questions.id}. {questions.title}</a></li></ul>
+                  {/* <ul><li><a href={"#"+questions.id} className="anchor">{questions.id}. {questions.title}</a></li></ul> */}
+                  <Link to={questions.id}>{questions.id}. {questions.title}</Link>
                   </div>
                   </>
                 }
