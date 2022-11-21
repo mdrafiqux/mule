@@ -70,5 +70,77 @@
     "point5":"",
      "point6":"",
      "image": "<img src=\"https://i.ibb.co/5KvT4x8/environments.png\" style=\"width: 80%;\"> "
+  },
+  {
+    "id":7,
+    "title": "Identity Providers?",
+    "content": "Used to configure identity management in Anypoint Platform to set up users for single sign-on (SSO)",
+    "point1": "An organization can have up to 25 external identity providers, or IdPs, configured for SSO.",
+    "point2": "<strong>OpenID Connect:</strong> End user identity verification by an authorization server including SSO",
+    "point3": "<strong>SAML 2.0: (Salesforce/PingFederate (versions: 6, 7, 8), Okta)</strong>",
+    "point4": "Web-based authorization including cross-domain SSO",
+    "point5":"",
+     "point6":"<a href=\"https://dzone.com/articles/setup-mulesoft-anypoint-platform-identity-using-ok#:~:text=MuleSoft%20Anypoint%20Platform%20supports%20external,an%20authorization%20server%20including%20SSO\" target=\"_blank\">How To Setup</a>",
+     "image": "<img src=\"https://dz2cdn1.dzone.com/storage/temp/12915610-oauth8.png\" style=\"width: 80%;\"> "
+  },
+  {
+    "id":8,
+    "title": "Client Providers?",
+    "content": "Anypoint Platform acts as a client provider by default, but you can also configure external client providers to authorize client applications. ",
+    "point1": "As an API owner, you can apply an OAuth 2.0 policy to authorize client applications that try to access your API. You need an OAuth 2.0 provider to use an OAuth 2.0 policy.",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://help.mulesoft.com/servlet/rtaImage?eid=ka42T000000bro5&feoid=00N34000005C99j&refid=0EM2T000000aQ4B\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":9,
+    "title": "Audit log?",
+    "content": "Changes made by users within Anypoint Platform organizations are logged through an audit logging service. You can access the data logs through the audit logging query API or through the audit logging UI.",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 40%;\"> "
+  },
+  {
+    "id":10,
+    "title": "Trusted Domains?",
+    "content": "Manage domains that are allowed in the organization to make HTTP requests through Anypoint proxy. These domains are your API domains hosted in other than anypoint.com domain",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":11,
+    "title": "Runtime Manager Settings in Access Management?",
+    "content": "We can change the region of apps deployment",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":12,
+    "title": "Subscription?",
+    "content": "We can see our account subscription information like (Org Name, Subscription Tier, Expiration Date)",
+    "point1": "1. Vcore Sizes of different environments like (Prodution, Sandbox, Design)",
+    "point2": "2. Number of Static IPs",
+    "point3": "3. VPC Count",
+    "point4": "4. Load Balancers Count",
+    "point5":"5. Network Connections",
+     "point6":"",
+     "image": "<img src=\"https://help.mulesoft.com/servlet/rtaImage?eid=ka42T000000fz3P&feoid=00N34000005C99j&refid=0EM340000007I1Q\" style=\"width: 60%;\"> "
   }
 ]
