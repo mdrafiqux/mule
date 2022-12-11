@@ -1,0 +1,110 @@
+[
+  {
+    "id":1,
+    "title": "What is API Manager?",
+    "content": "API Manager is a component of Anypoint Platform that enables you to manage, govern, and secure APIs.",
+    "point1": "API Manager manages APIs that reside in Exchange",
+    "point2": "API Manger is used to apply the policies on APIs",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://i.postimg.cc/TYyYJ01C/apimanager.png\" style=\"width: 80%;\"> "
+  },
+  {
+    "id":2,
+    "title": "What is API Autodiscovery?",
+    "content": "API Autodiscovery is used to pair the API in API Manger to deployed mule application",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":3,
+    "title": "What are API Groups?",
+    "content": "An API group is an API asset that enables organizations to publish a group of API instances / ID as a single unit.",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":4,
+    "title": "What are Automated Policies?",
+    "content": "Policy automation enables security architects and administrators to secure and govern every API running in an environment.",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":5,
+    "title": "What are Client Applications?",
+    "content": "Applications are external services that consume APIs. For details about applications and their related contracts",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":6,
+    "title": "What are Custom Policies?",
+    "content": "Custom policies are policies that anyone can develop and apply to their APIs, with the intention of extending existing functionality or defining new functionality. ",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":7,
+    "title": "What are Analytics?",
+    "content": "API analytics provide insight into how your APIs are being used and how they are performing.",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id": 8,
+    "title": "Type of Alerts in API Manager?",
+    "content": "<strong>Severity:</strong> 1. Info, 2. Warning 3. Critical",
+    "point1": "<strong>Info, Warning, Critical:</strong> 1. Request Count 2. Response Code 3. Policy Violation, Response Time.",
+    "point2": "Add Receipients and create alert.",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":9,
+    "title": "Policies in API Manager?",
+    "content": "Policies enable you to enforce regulations to help manage security, control traffic, and improve adaptability of your APIs",
+    "point1": "<strong>Security:</strong> 1. Oauth 2.0, 2. JWT (Json Web Token), 3: IP Allowlist, 4: IP Blocklist",
+    "point2": "<strong>Quality of Service:</strong> 1. Rate Limiting (SLA Based): Specifies Max value for the number of messages processed. 2. Spike Control",
+    "point3": "<strong></strong>",
+    "point4": "<strong></strong>",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  }
+]
