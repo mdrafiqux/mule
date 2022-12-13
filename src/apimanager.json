@@ -101,8 +101,20 @@
     "content": "Policies enable you to enforce regulations to help manage security, control traffic, and improve adaptability of your APIs",
     "point1": "<strong>Security:</strong> 1. Oauth 2.0, 2. JWT (Json Web Token), 3: IP Allowlist, 4: IP Blocklist",
     "point2": "<strong>Quality of Service:</strong> 1. Rate Limiting (SLA Based): Specifies Max value for the number of messages processed. 2. Spike Control",
-    "point3": "<strong></strong>",
-    "point4": "<strong></strong>",
+    "point3": "<strong>Compliance:</strong>1. ClientID Enforcement (All calls to the api must include a clientid and client secret for application that is registered) 2.Cross-origin resource sharging(standard mechanism that allows javascript based webapps to access resources in another domain)",
+    "point4": "<strong>Troubleshooting:</strong>1. Message logging: logs custom messages between policies and flow",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":10,
+    "title": "SLA Tiers / Limits?",
+    "content": "Service Level Access (SLA): Determines whether access to the api at a certian level requieres your approval.",
+    "point1": "<strong>Rate Limiting</strong>: Enables us to control incoming traffic to an API by limiting the number of requests.",
+    "point2": "",
+    "point3": "",
+    "point4": "",
     "point5":"",
      "point6":"",
      "image": "<img src=\"\" style=\"width: 60%;\"> "

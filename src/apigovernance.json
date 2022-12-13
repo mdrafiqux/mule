@@ -1,0 +1,14 @@
+[
+    {
+      "id":1,
+      "title": "What is API Governance?",
+      "content": "Anypoint API Governance ensures consistent API quality and security with self-service tools",
+      "point1": "Apply consistent rules at design time",
+      "point2": "You can monitor your APIs' conformance and notify developers to help improve the conformance.",
+      "point3": "",
+      "point4": "",
+      "point5":"",
+       "point6":"",
+       "image": "<img src=\"https://i.postimg.cc/hGZmxhWZ/api-governance.png\" style=\"width: 80%;\"> "
+    }
+  ]

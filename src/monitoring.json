@@ -1,0 +1,38 @@
+[
+    {
+      "id":1,
+      "title": "What is Anypoint Monitoring?",
+      "content": "Anypoint Monitoring provides unparalleled visibility, which helps us proactively identify issues and reduce mean time to resolution. It's a game-changer.",
+      "point1": "",
+      "point2": "",
+      "point3": "",
+      "point4": "",
+      "point5":"",
+       "point6":"",
+       "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/anypoint-monitoring-1.png\" style=\"width: 80%;\"> "
+    },
+    {
+        "id":2,
+        "title": "What is Functional Monitoring?",
+        "content": "API Functional Monitoring enables you to monitor responses to requests sent to API resources at their endpoints",
+        "point1": "",
+        "point2": "",
+        "point3": "",
+        "point4": "",
+        "point5":"",
+         "point6":"",
+         "image": "<img src=\"\" style=\"width: 60%;\"> "
+      },
+      {
+        "id":3,
+        "title": "What is Performance Monitoring?",
+        "content": "Graphical representation of AP Response Time, Failures",
+        "point1": "",
+        "point2": "",
+        "point3": "",
+        "point4": "",
+        "point5":"",
+         "point6":"",
+         "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/anypoint-monitoring-2.png\" style=\"width: 60%;\"> "
+      }
+  ]

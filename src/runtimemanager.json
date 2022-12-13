@@ -1,0 +1,122 @@
+[
+    {
+        "id":1,
+        "title": "What is Runtime Manager? ",
+        "content": "With Runtime Manager, you can deploy, manage, and monitor your Mule applications in a sandbox, staging, or production environment from one central location, whether your apps are deployed in the cloud or on-premises.",
+        "point1": "<strong>You can use Runtime Manager in these scenarios:</strong> <br> <strong>1. CloudHub:</strong> CloudHub is a complete integration platform as a service (iPaaS) that automatically meets all of your server needs without requiring any configuration or customization, including object store infrastructure, monitoring, troubleshooting, and scheduling. <br> ---->For applications deployed to CloudHub, you can use Insight for analytics and monitoring.",
+        "point2": "<strong>3. Hybrid:</strong> Your on-premises Mule servers host your app deployments and you use the Anypoint Platform Runtime Manager cloud console to manage them.",
+        "point3": "",
+        "point4": "",
+        "point5":"",
+         "point6":"",
+         "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/rtm-overview.png\" style=\"width: 40%;\">"
+      },
+      {
+       "id":2,
+       "title": "Different Enviornment in Runtime Manager? (QA/Preprod)",
+       "content": "If you have multiple environments in your organization, you can switch between them. From any application in Anypoint Platform, you can switch to a different environment.",
+       "point1": "1. Click the current environment in the top left corner of Runtime Manager.",
+       "point2": "2. Select the environment to which you want to switch",
+       "point3": "3. Click Switch.",
+       "point4": "",
+       "point5":"",
+        "point6":"",
+        "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/managing-deployed-applications-0e10f.png\" style=\"width: 40%;\">"
+     },
+     {
+      "id":3,
+      "title": "Different Alerts in Runtime Manager?",
+      "content": "You can set up alerts to send email notifications when application or server events occur.",
+      "point1": "<mark>Application Deployed / Application Failed</mark>",
+      "point2": "<mark>CPU Usage / Memory Usage</mark> is equal or above 80% for atleast 10 Minutes",
+      "point3": "",
+      "point4": "",
+      "point5":"",
+       "point6":"",
+       "image": "<img src=\"\">"
+    },
+    {
+     "id":4,
+     "title": "What are servers, server Groups, and Clusters?",
+     "content": "Both server groups and clusters run applications in multiple distributed nodes. When using a server group, instances of the applications are completely isolated from each other. In a cluster configuration, the nodes are aware of one another and share common information and synchronize statuses.",
+     "point1": "1. After setting up a server, you can add it to a server group or cluster. ",
+     "point2": "2. Then, select the server, group, or cluster as the deployment target for your applications.",
+     "point3": "3. When using a server group, instances of the applications are completely isolated from each other. In a cluster configuration, the nodes are aware of one another and share common information and synchronize statuses.",
+     "point4": "4. All servers in a server group or clusters must have the same Mule runtime engine version and Runtime Manager agent version.",
+     "point5":"",
+      "point6":"",
+      "image": "<img src=\"https://blogs.perficient.com/files/2016/04/local-servers.jpg\" style=\"width:60%;\">"
+   },
+   {
+     "id":5,
+     "title": "What is Anypoint VPC? (Virtual Private Cloud)",
+   "content": "It allows you to create logical or isolated networks in the cloud where you can deploy or run the resources securely.",
+   "point1": "1. Anypoint VPC allows you to extend your corporate network and allows cloudhub workers to connect resources behind the firewalls.",
+   "point2": "2. We can connect on prem data centers through a secured vpn tunnel.",
+   "point3": "<strong>Charectaristics</strong>",
+   "point4": "&#8658;Multiple VPC can be created in same region (Prod / NonProd).",
+   "point5":"&#8658;Multiple environments can be mapped to same VPC.",
+    "point6":"&#8658;Always create the VPC in the parent business group and share with sub business groups. <br> <strong> Advantages</strong> <br> 1. Create secure virtual network with in cloudhub <br>  2. Connect cloudhub assets behind the firewall <br> 3. Deploy Mule Runtime Securely <br> 4. Connect cloudhub to any public cloud or onprem datacenter securely.",
+    "image": "<img src=\"https://i.ibb.co/wN3VFvb/vpc.jpg\" style=\"width:60%;\">"
+   },
+   {
+    "id":6,
+    "title": "CIDR (classless inter domain routing) VPC Sizing? (192.168.0.0/block size)",
+    "content": "1. Its the way of allocating IP Addresses and IP routing in more efficient manner",
+    "point1": "2. This method allocates IP Address/host in most efficient way and avoids wastage of IP Address.",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/img_6059d4ec49af6.png\" style=\"width:40%;\">"
+  },
+  {
+    "id": 7,
+    "title": "What are VPC Firewall Rules?",
+    "content": "When you create an Anypoint Virtual Private Cloud (Anypoint VPC), you can add your own firewall rules to allow specific IP ranges and ports to reach your workers.",
+    "point1": "You can configure approximately 35 firewall rules per VPC",
+    "point2": "connections from anywhere through ports 8081 and 8082",
+    "point3": "Anypoint VPC through ports 8091 and 8092",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://docs.mulesoft.com/runtime-manager/_images/firewall-rules-page.png\">"
+  },
+  {
+    "id":8,
+    "title": "What is Load Balancer and Types? DLB and SLB",
+    "content": "If a single server goes down, load balancer automtically redirects traffic to available servers, if we add a new server to the server group it automatically starts to send requests to it.",
+    "point1": "Cloud Hub Provides two types of load balancers <br> 1. Sharead Load Balancer <br> 2. Dedicated Load Balancer",
+    "point2": "<strong>Shared Load Balancer</strong> <br> -> 1. Cloudhub provides default shared load balancer available for all environments <br> -> 2. Shared load balancers don’t allow you to configure custom SSL certificates or proxy rules. <br> -> 3. Additionally, shared load balancers have lower rate limits that help ensure platform stability depends on the region",
+    "point3": "<strong>Dedicated Load Balancer</strong><br> -> 1. Handle Load Balancing among the different cloudhub workers that run your application <br> -> 2. We can configure custom SSL configurations and also we can enforce two way authentication <br> -> 3. We can confure proxy rules that map apps to custom domains, this enables to host applications under a single domain",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/pasted-image-0-17-1024x573.png\" style=\"width:60%;\">"
+  },
+  {
+    "id":9,
+    "title": "What is Anypoint VPN / VPN Routing? Static Routing VS Dynamic Routing?",
+    "content": "used to create secure connection between cloudhub and on premises datacenters",
+    "point1": "",
+    "point2": "VPN Routing Types",
+    "point3": "",
+    "point4": "<strong>1. Static Routing </strong> <br> 1. Requires you to specify the routes in your network that are accessible through Anypoint VPN <br> 2. Ideal for Small Networks",
+    "point5":"<strong>2. Dynamic Routing</strong> <br> 1. It adjusts the routes automatically <br> 2. Ideal for Large Networks",
+     "point6":"",
+     "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/img_6059c0e201c72.png\" style=\"width:60%;\">"
+  },
+  {
+    "id":10,
+    "title": "What is Anypoint VPC Peering?",
+    "content": "VPC peering basically connects two VPCs. In this case, it pairs your private Amazon VPC directly to your Anypoint VPC. ",
+    "point1": "This enables you to route traffic between the two VPCs so they can communicate as though they are in the same network.",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"https://docs.mulesoft.com/cloudhub-1/_images/vpc-overview-peering.png\" style=\"width: 60%;\"> "
+  }
+]

@@ -12,7 +12,7 @@ import Monitoring from "./pages/Monitoring";
 function App() {
   return (
     <>
- <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+ <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-light">
   <div className="container-fluid">
     
 <div className="container">

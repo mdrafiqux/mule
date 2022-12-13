@@ -1,0 +1,14 @@
+[
+    {
+      "id":1,
+      "title": "What is Anypoint Visualizer?",
+      "content": "Anypoint Visualizer provides a real-time, graphical representation of the APIs, and Mule applications that are running and discoverable",
+      "point1": "Anypoint Visualizer collects data from Mule applications, APIs, and proxies deployed to CloudHub",
+      "point2": "",
+      "point3": "",
+      "point4": "",
+      "point5":"",
+       "point6":"",
+       "image": "<img src=\"https://docs.mulesoft.com/visualizer/_images/application-network.png\" style=\"width: 80%;\"> "
+    }
+  ]
