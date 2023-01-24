@@ -4,7 +4,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.paragraph{
+  font-size: 14px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
@@ -16,7 +18,7 @@ code {
 }
 .heading {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
 }
 /* .app {
   padding: 20px 20px 10px 20px;
@@ -46,8 +48,9 @@ code {
     padding-bottom: 0.5rem !important;
   }
   body{
-    padding-top: 150px !important;
+    /* padding-top: 150px !important; */
   }
+
   .nav-pills{
     justify-content: center;
   }
