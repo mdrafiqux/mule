@@ -18,8 +18,8 @@ function App() {
 <div className="container">
     <header className="d-flex justify-content-center py-1">
       <ul className="nav nav-pills">
-         <li className="nav-item"><NavLink className="nav-link"  to='/home' >Home</NavLink></li>
-         <li className="nav-item"><NavLink className="nav-link"  to='/two' >Two</NavLink></li>
+         {/* <li className="nav-item"><NavLink className="nav-link"  to='/home' >Home</NavLink></li> */}
+         <li className="nav-item"><NavLink className="nav-link"  to='/two' >HTML Email</NavLink></li>
         {/* <li className="nav-item"><NavLink className="nav-link" to='/accessmanagement'>Access Management</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/apimanager'>API Manager</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/runtimemanager'>Runtime Manager</NavLink></li>
