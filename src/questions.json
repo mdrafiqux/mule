@@ -30,7 +30,7 @@
       "point1": "It replaces the old way of allocating IP adrs on based of class system.",
       "point2": "this method of allocation avoids the waste of IP adrs.",
       "point3": "Example: 192.168.0.0/24 – Min CIDR notation.",
-      "point4": "",
+      "point4": "<strong>Min</strong> : /24-256, /23-512, /22-1024, /21-2048, /20-4096, /19-8192, /18-16,384, /17-32,768, <strong>Max:</strong>/16-65,536  ",
       "point5":"",
        "point6":"",
        "image": "<img src=\"\" style=\"width: 60%;\"> "
@@ -368,6 +368,18 @@
       "point3": "",
       "point4": "",
       "point5":"",
+       "point6":"",
+       "image": "<img src=\"\" style=\"width: 60%;\"> "
+    },
+    {
+      "id":32,
+      "title": "What is RTF runtime fabric?",
+      "content": "Anypoint Runtime Fabric is a container service that automates the deployment and orchestration of your Mule applications and gateways.",
+      "point1": "->Runtime Fabric runs on customer-managed infrastructure on AWS, Azure, virtual machines (VMs) or bare-metal servers.",
+      "point2": "<strong>Features of RTF</strong>",
+      "point3": "You can scale your mule application",
+      "point4": "There is option to run multiple version of mule runtime on same set of resources",
+      "point5": "Isolation between application by running a separate Mule runtime per application",
        "point6":"",
        "image": "<img src=\"\" style=\"width: 60%;\"> "
     }

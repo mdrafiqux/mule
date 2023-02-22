@@ -18,7 +18,7 @@ export function Accessmanagement() {
     <>
       <div className="container">
         <div className="app">
-          <h2 className="mainheading">Access Management Topic</h2>
+          {/* <h2 className="mainheading">Access Management Topic</h2> */}
           <div className="height-135">
          <div className="fixed-container">
           <input
