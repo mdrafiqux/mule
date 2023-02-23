@@ -27,13 +27,13 @@
     "id":3,
     "title": "3.Which are the ways to stack 2 column layout one below the another in mobile? ",
     "content": "<strong>Method1 : Normal Stacking </strong> <strong> Method2. Reverse Stacking </strong>",
-    "point1": "Using block level TD Elements, we will use display: block and width: 100%",
-    "point2": "<strong> Normal Stacking:  </strong>The block class turns the table cells into blocks on mobile, and the content behaves accordingly and automatically stacks on mobile. This results in a normal stack",
-    "point3": "<strong>Reverse Stacking:</strong> By place dir=\"rtl\" at the parent table will make element inside to reverse alignment in the same structure ",
-    "point4": "So we need another dir=\"ltr\" at the td column to reverse text content back to normal.",
+    "point1": "",
+    "point2": "<strong> Normal Stacking:  </strong>Using block level TD Elements, we will use display: block and width: 100%",
+    "point3": "<strong>Reverse Stacking:</strong> By place dir=\"rtl\" at the parent table will make element inside to reverse alignment ",
+    "point4": "So we need another dir=\"ltr\" at the th column to reverse text content back to normal.",
     "point5":"",
      "point6":"",
-     "image": "<img src=\"https://i.postimg.cc/Y9H1hrt6/stacking.png\" style=\"width: 60%;\"> <img src=\"https://i.postimg.cc/SQzXYXZc/reversestacking.jpg\" style=\"width: 60%;\"> "
+     "image": "<img src=\"\" style=\"width: 60%;\"> <img src=\"\" style=\"width: 60%;\"> "
   },
   {
     "id":4,
@@ -169,10 +169,10 @@
   },
   {
     "id":16,
-    "title": "",
-    "content": "",
-    "point1": "",
-    "point2": "",
+    "title": "Diff between Block level and Inline Level Element?",
+    "content": "display:block==>brings on different line",
+    "point1": "display:inline==>brings on the same line==>but this doesn't allow  to set height, margin, padding to be individually set for each element.",
+    "point2": "display:inline-block lets your bring everything to inline and alo we can set height,margin and paddings",
     "point3": "",
     "point4": "",
     "point5":"",
@@ -189,16 +189,16 @@
     "point4": "col-lg- (For devices equal to or greater than 992px)",
     "point5":"col-xl- For devices equal to or greater than 1200px",
      "point6":"",
-     "image": "<img src=\"\" style=\"width: 60%;\"> "
+     "image": "<img src=\"https://qph.cf2.quoracdn.net/main-qimg-3118d395098c341f6a4567da43b258cb-lq\" style=\"width: 40%;\"> "
   },
   {
     "id":18,
-    "title": "What is the difference between Bootstrap 4 and Bootstrap 5?",
-    "content": "<strong>bootstrap - 4</strong> 5 tier grid system(xs, sm, md, lg, xl). <strong>bootstrap - 5</strong> 6 tier grid system(xs, sm, md, lg, xl, xxl).",
-    "point1": "<strong>bootstrap - 4</strong>It has jQuery along with all the related plugins. <strong>bootstrap - 5</strong> Jquery is removed and it has switched to vanilla JS with some working plugins.",
-    "point2": "<strong>bootstrap - 4</strong>supports both IE 10 and 11. <strong>bootstrap - 5</strong> doesn’t support IE 10 and 11",
-    "point3": "<strong>bootstrap - 4</strong> <strong>bootstrap - 5</strong>",
-    "point4": "<strong>bootstrap - 4</strong> <strong>bootstrap - 5</strong>",
+    "title": "What are the different ways of coding the emails? Hint – Static, Responsive, Hybrid and 2 in 1",
+    "content": "Static ==> will have Fixed widths and the same size will be visilble for mobile as well",
+    "point1": "FLUID ==> stick to a single column and make your emails fluid",
+    "point2": "Adaptive or Responsive ==> adaptive layouts stacks one below each other on mobile devices",
+    "point3": "",
+    "point4": "",
     "point5":"",
      "point6":"",
      "image": "<img src=\"\" style=\"width: 60%;\"> "
@@ -212,7 +212,67 @@
     "point3": "<strong>Whiteline issues: </strong> Adjust heights and font sizes from odd to even font size, also can be fixed by adding mso specific code mso-table-lspace: 0pt; mso-table-rspace: 0pt;border-collapse:collapse;",
     "point4": "<strong>Link issues: </strong> wrap the link in a <span> and style the span",
     "point5":"<strong>Font stacks and Times New Roman: </strong> By putting your custom font last in the list",
-     "point6":"<strong>Controlling line height in Outlook</strong> using mso-line-height-rule:exactly;",
+     "point6":"<strong>Controlling line height in Outlook</strong> using border-collapes:collapse for tr,td and mso-line-height-rule:exactly;",
      "image": "<img src=\"https://i.postimg.cc/5jd64dTH/vml-scale.jpg\" style=\"width: 60%;\"> <img src=\"https://i.postimg.cc/s2BTMb2j/customfont2.jpg\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":20,
+    "title": "What are hidden pre-headers? why it is used? Diff between hidden and visible pre header?",
+    "content": "A hidden preheader is a text that follows the subject line in Inbox. ",
+    "point1": "It is used to show summary of your email",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":21,
+    "title": "Using TH Tags in Emails",
+    "content": "for responsive emails we use TH tag, webkit has rendering issues it doesnt do anything if we apply display block",
+    "point1": "it is not adivised to use TH tag as it may raise accesibility issues",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":22,
+    "title": "What is an image map? ",
+    "content": "It is an image with clickable areas",
+    "point1": "we need to define area tag and shape and coords attributes",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":23,
+    "title": "How do you create links to sections within the same page? ",
+    "content": "with the help of anchor tag and adding href attriube with ID of that particular section",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":24,
+    "title": "What is the advantage of collapsing white space?",
+    "content": " It enables you to organize the HTML code into a more human readable format.",
+    "point1": "",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
   }
 ]
