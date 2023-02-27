@@ -300,18 +300,6 @@
      "image": "<img src=\"\" style=\"width: 60%;\"> "
   },
   {
-    "id":27,
-    "title": "Project Flow?",
-    "content": "we do have Business analyst who will be interacting with Offshore Dev team and onsite client",
-    "point1": "So BA will be creating tickets in JIRA with campaign description and assets links after that tickets will be assinged to us ",
-    "point2": "Once the assets received we will start coding that and test in different email clients using litmus and assign those to QA",
-    "point3": "After that it will be shared to ACC Team (Adobe campaign classic) team, there they will add dynamic values (example: names of user and dates)",
-    "point4": "",
-    "point5": "",
-     "point6":"",
-     "image": "<img src=\"\" style=\"width: 60%;\"> "
-  },
-  {
     "id":28,
     "title": "Module based coding?",
     "content": "For every campaign we create reusable content block which can be put together in different combinations ",
@@ -356,6 +344,30 @@
     "point3": "==> we can test links, accesbility ",
     "point4": "==> loading speed, we can see preview text in proof section",
     "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":32,
+    "title": "any difficulties faced in project or in career?",
+    "content": "while i was working for ubs client, as its banking domain we need to code 10-15 campaigns in a month",
+    "point1": "need to support multiple email clients and we had minium of 4-6 modules in each",
+    "point2": "main difficulty faced here was design was not meeting standards every time we need to give feedback",
+    "point3": " and had discussion with design team so it was time consuming used to work for long hour only for that client.",
+    "point4": "ny ways we managed and delived on time.",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":27,
+    "title": "Project Flow?",
+    "content": "we do have Business analyst who will be interacting with Offshore Dev team and onsite client",
+    "point1": "So BA will be creating tickets in JIRA with campaign description and assets links after that tickets will be assinged to us ",
+    "point2": "Once the assets received we will start coding that and test in different email clients using litmus and assign those to QA",
+    "point3": "After that it will be shared to ACC Team (Adobe campaign classic) team, there they will add dynamic values (example: names of user and dates)",
+    "point4": "",
+    "point5": "",
      "point6":"",
      "image": "<img src=\"\" style=\"width: 60%;\"> "
   }
