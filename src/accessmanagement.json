@@ -134,7 +134,7 @@
   {
     "id":12,
     "title": "smart object in photoshop?",
-    "content": "Smart Objects are a type of container that holds multiple layers within Photoshop ",
+    "content": "Smart Objects helps in the editing of images with out losing quality of image, we can scale or apply any effect on image ",
     "point1": "",
     "point2": "",
     "point3": "",
@@ -331,6 +331,30 @@
     "point2": "3. Steps => Under MSO conditionals we use v:roundrect with width and height, arcsize, stroke color, fillcolor",
     "point3": "",
     "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":30,
+    "title": "Have u worked on pixel perfect?",
+    "content": "Yes for few campaigns i have worked by taking 1x size of mockup for desktop and mobile and comparing it with the existing code.",
+    "point1": "we do have plugin for that ==> (PerfectPixel) for chrome",
+    "point2": "",
+    "point3": "",
+    "point4": "",
+    "point5":"",
+     "point6":"",
+     "image": "<img src=\"\" style=\"width: 60%;\"> "
+  },
+  {
+    "id":31,
+    "title": "Features of Litmus?",
+    "content": "with litmus we can preview our emails across 40+ email clients",
+    "point1": "==> litmus spam testing feature",
+    "point2": "==> Test alt content for images by blocking them",
+    "point3": "==> we can test links, accesbility ",
+    "point4": "==> loading speed, we can see preview text in proof section",
     "point5":"",
      "point6":"",
      "image": "<img src=\"\" style=\"width: 60%;\"> "
