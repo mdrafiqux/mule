@@ -18,14 +18,13 @@ function App() {
 <div className="container">
     <header className="d-flex justify-content-center py-1">
       <ul className="nav nav-pills">
-         {/* <li className="nav-item"><NavLink className="nav-link"  to='/home' >Home</NavLink></li> */}
-         <li className="nav-item"><NavLink className="nav-link"  to='/two' >HTML Email</NavLink></li>
-        {/* <li className="nav-item"><NavLink className="nav-link" to='/accessmanagement'>Access Management</NavLink></li>
+         <li className="nav-item"><NavLink className="nav-link"  to='/home' >Home</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to='/accessmanagement'>Access Management</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/apimanager'>API Manager</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/runtimemanager'>Runtime Manager</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/apigovernance'>API Governance</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to='/visualizer'>Visualizer</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to='/monitoring'>Monitoring</NavLink></li> */}
+        <li className="nav-item"><NavLink className="nav-link" to='/monitoring'>Monitoring</NavLink></li>
       </ul>
     </header>
   </div>
@@ -45,7 +44,7 @@ function App() {
 </nav>
    <Routes>
     <Route path='/home' exact  element={<Home/>}></Route>
-    <Route path='/two' exact  element={<Accessmanagement/>}></Route>
+    <Route path='/accessmanagement' exact  element={<Accessmanagement/>}></Route>
     <Route path='/apimanager' exact  element={<Apimanager/>}></Route>
     <Route path='/runtimemanager' exact  element={<Runtimemanager/>}></Route>
     <Route path='/apigovernance' exact  element={<Apigovernance/>}></Route>
