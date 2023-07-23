@@ -4,7 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.paragraph{
+.paragraph {
   font-size: 14px;
 }
 code {
@@ -32,26 +32,29 @@ code {
   display: inline-block;
 }
 @media only screen and (max-width: 1024px) {
-  .box img, .paragraph img {
+  .mainheading {
+    padding: 80px 0 10px;
+  }
+  .box img,
+  .paragraph img {
     width: 100% !important;
   }
-  .nav-link{
+  .nav-link {
     padding: 0.2rem 1rem;
     font-size: 14px !important;
   }
-  .nav-item{
+  .nav-item {
     height: 24px !important;
-
   }
-  .py-3{
+  .py-3 {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
   }
-  body{
+  body {
     /* padding-top: 150px !important; */
   }
 
-  .nav-pills{
+  .nav-pills {
     justify-content: center;
   }
   /* .fixed-container{
@@ -59,82 +62,82 @@ code {
     padding: 10px;
   } */
 }
-.box{
+.box {
   background-color: #f1f2f3;
-  padding: 20PX;
-    margin-bottom: 20px;
-    border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
 }
-.search-list ul{
+.search-list ul {
   padding-left: 0;
 }
-.search-list li{
+.search-list li {
   list-style: none;
 }
-.search-list ul li a{
+.search-list ul li a {
   text-decoration: none;
 }
-.questions-list{
+.questions-list {
   padding: 20px;
   background-color: #f1f2f3;
   border-radius: 8px;
   margin-bottom: 20px;
   scroll-margin: 132px 0 0 0px;
 }
-.answers{
+.answers {
   padding: 20px;
-    border: 1px solid #ccc;
-    margin: 10px;
-    border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  border-radius: 8px;
 }
-.pad-lr-20{
+.pad-lr-20 {
   padding: 0 20px 0px 20px;
 }
-ul li:last-child{
+ul li:last-child {
   margin-bottom: 10px;
 }
-.wrapper-div{
+.wrapper-div {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.top-btn .fa-arrow-circle-up{
+.top-btn .fa-arrow-circle-up {
   font-size: 40px;
   color: #3273dc;
   cursor: pointer;
   background-color: #fff;
-    border-radius: 50px;
+  border-radius: 50px;
 }
-.top-btn button{
+.top-btn button {
   border: 0;
   background: none;
   position: fixed;
   right: 10px;
   bottom: 50%;
 }
-.button{
+.button {
   margin-bottom: 10px;
   margin-right: 5px;
 }
-.paragraph a{
+.paragraph a {
   text-decoration: underline;
 }
-.paragraph img{
+.paragraph img {
   width: 60%;
 }
-.sticky-div{
+.sticky-div {
   position: sticky;
   max-width: 1344px;
-    width: 1344px;
+  width: 1344px;
   top: 0;
   z-index: 1;
   background: #fff;
   padding: 10px 20px 10px 20px;
   box-shadow: 0 1rem 2rem hsl(0deg 0% 0% / 8%);
   border-radius: 8px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
-body{
+body {
   background-color: #ffffff;
   min-height: 100vh;
   padding-top: 70px;
@@ -154,29 +157,29 @@ body{
     border-bottom: 1px solid #ccc;
 } */
 .box:first-child {
-  margin-top: 135px;;
+  margin-top: 135px;
 }
-.height-135{
+.height-135 {
   height: 135px;
   max-height: 135px;
 }
-.navbar-nav .nav-link{
+.navbar-nav .nav-link {
   padding-left: 5px;
 }
-.navbar-collapse{
+.navbar-collapse {
   margin-top: 1rem;
 }
-.nav-item .nav-link.active{
-    color: #fff;
-    background-color: #0d6efd;
-    border-radius: 4px;
+.nav-item .nav-link.active {
+  color: #fff;
+  background-color: #0d6efd;
+  border-radius: 4px;
 }
-.bg-light{
+.bg-light {
   background-color: #f1f2f3;
 }
-.nav-item{
+.nav-item {
   height: 40px;
 }
-p{
+p {
   margin-bottom: 0.2rem;
 }
