@@ -923,8 +923,8 @@
        "point6":"",
        "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/anypoint-monitoring-2.png\" style=\"width: 60%;\"> "
     },
-    [
-       {
+       
+    {
          "id":78,
          "title": "What is Anypoint Visualizer?",
          "content": "Anypoint Visualizer provides a real-time, graphical representation of the APIs, and Mule applications that are running and discoverable",
@@ -936,5 +936,4 @@
           "point6":"",
           "image": "<img src=\"https://docs.mulesoft.com/visualizer/_images/application-network.png\" style=\"width: 80%;\"> "
        }
-     ]
  ]
