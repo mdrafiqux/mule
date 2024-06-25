@@ -33,11 +33,11 @@ code {
 }
 @media only screen and (max-width: 1024px) {
   .mainheading {
-    padding: 80px 0 10px;
+    padding: 20px 0 10px;
   }
   .box img,
   .paragraph img {
-    width: 100% !important;
+    width: 60% !important;
   }
   .nav-link {
     padding: 0.2rem 1rem;
@@ -123,7 +123,7 @@ ul li:last-child {
   text-decoration: underline;
 }
 .paragraph img {
-  width: 60%;
+  width: auto;
 }
 .sticky-div {
   position: sticky;
@@ -140,22 +140,17 @@ ul li:last-child {
 body {
   background-color: #ffffff;
   min-height: 100vh;
-  padding-top: 70px;
+  padding-top: 0px;
 }
 /* .m-top-135{
   margin-top: 135px;
 } */
 
-/* .fixed-container{
-  position: fixed;
-    top: 0;
-    background-color: #ffffff;
-    z-index: 99;
-    max-width: 1344px;
+.fixed-container{
+     position: fixed;
+    background: #fff;
     width: 60%;
-    padding: 0px 10px 0 10px;
-    border-bottom: 1px solid #ccc;
-} */
+} 
 .box:first-child {
   margin-top: 135px;
 }
@@ -182,4 +177,10 @@ body {
 }
 p {
   margin-bottom: 0.2rem;
+}
+
+
+
+.navbar {
+  display: none;
 }
