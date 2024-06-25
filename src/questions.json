@@ -945,7 +945,7 @@
          "point3": "",
          "point4": "Checklist to Create Anypoint VPN\n---------------------\nRuntime Manager -> VPNs\nVPC Name, Select VPC, BGP (broader gateway protocol)",
          "point5": "Steps: we need to create new anypont vpn, confi remot ip address, ",
-         "point6": "select the vpn we need to migrate",
+         "point6": "select the vpn we need to migrate.",
          "image": ""
        },
        {
