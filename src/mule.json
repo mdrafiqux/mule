@@ -935,5 +935,17 @@
          "point5":"",
           "point6":"",
           "image": "<img src=\"https://docs.mulesoft.com/visualizer/_images/application-network.png\" style=\"width: 80%;\"> "
+       },
+       {
+         "id":79,
+         "title": "Cloudhub certificate renewal?",
+         "content": "From Anypoint Platform, select Runtime Manager, Click the Servers tab, Click the server name.",
+         "point1": "From the actions menu -> Click on Renew Certificate",
+         "point2": "Check the expiration Date once renewed successfully.",
+         "point3": "",
+         "point4": "",
+         "point5":"",
+          "point6":"",
+          "image": ""
        }
  ]

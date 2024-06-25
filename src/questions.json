@@ -2,8 +2,8 @@
    {
      "id":1,
      "title": "What is MuleSoft? and advantages",
-     "content": "Mulesoft is an integration platform used for connecting data, applications and API's on premises and over the cloud plataform.",
-     "point1": "* MuleSoft works on the AnyPoint Connectivity Model which helps in connecting any existing SaaS-based applications or set of APIs through one single API interface.",
+     "content": "Mulesoft is an integration platform to connect applications, data, and devices within the cloud and on-premises environments",
+     "point1": "",
      "point2": "*Organizations always want their system to be in sync so that they can operate all together and because of which integration need comes into picture",
      "point3": "<strong>Challenges Before Mulesoft</strong><br>1. Complexity – if system A is connected with B, C and D and if there is a change in A system then all other system need a change",
      "point4": "2. Rigid Architecture – no space for change<br>3. Reliability – if one of the system fail then there is no reliable way of putting that system out of network and all communication with the system will be lost",
@@ -177,7 +177,7 @@
      "point4": "",
      "point5":"",
       "point6":"",
-      "image": "<img src=\"https://blogs.mulesoft.com/wp-content/uploads/img_6059d59ace619.png\">"
+      "image": "<img style=\"width: auto;\" src=\"https://blogs.mulesoft.com/wp-content/uploads/img_6059d59ace619.png\">"
    },
     {
      "id":16,
@@ -309,7 +309,7 @@
     "point4": "",
     "point5":"",
      "point6":"",
-     "image": "<img src=\"https://docs.mulesoft.com/exchange/_images/ex2-old-search-landing.png\">"
+     "image": "<img src=\"https://docs.mulesoft.com/exchange/_images/ex2-old-search-landing.png\"  style=\"width:60%;\">"
   },
   {
     "id":27,
@@ -878,10 +878,10 @@
   {
     "id":74,
     "title": "What is API Governance?",
-    "content": "Anypoint API Governance ensures consistent API quality and security with self-service tools",
-    "point1": "Apply consistent rules at design time",
+    "content": "Anypoint API Governance ensures consistent and improved API quality and security",
+    "point1": "API design with anypoint best practices",
     "point2": "You can monitor your APIs' conformance and notify developers to help improve the conformance.",
-    "point3": "",
+    "point3": "Apply consistent rules from design time to deployment",
     "point4": "",
     "point5":"",
      "point6":"",
@@ -890,7 +890,7 @@
   {
     "id":75,
     "title": "What is Anypoint Monitoring?",
-    "content": "Anypoint Monitoring provides unparalleled visibility, which helps us proactively identify issues and reduce mean time to resolution. It's a game-changer.",
+    "content": "Anypoint Monitoring provides unparalleled visibility, which helps us proactively identify issues and reduce mean time to resolution.",
     "point1": "",
     "point2": "",
     "point3": "",
@@ -935,5 +935,67 @@
          "point5":"",
           "point6":"",
           "image": "<img src=\"https://docs.mulesoft.com/visualizer/_images/application-network.png\" style=\"width: 80%;\"> "
+       },
+       {
+         "id": 79,
+         "title": "Challenging task",
+         "content": "Earlier we were using Legacy VPN and we migrated it to Anypoint VPN",
+         "point1": "Legacy VPN\n----------------\nstruggle with scalability as they often require additional hardware or significant manual intervention to scale up\nPerformance can be a limitation if the hardware is not regularly updated\nrequire ongoing management and monitoring, which can often be complex and require dedicated resources, especially in larger setups",
+         "point2": "Anypoint VPN\n-----------------\nAnypoint VPN provides enhanced flexibility\nEach VPN connection consists of two tunnels for redundancy, ensuring high availability and reliability\nproviding a centralized way to monitor and manage all connections",
+         "point3": "",
+         "point4": "Checklist to Create Anypoint VPN\n---------------------\nRuntime Manager -> VPNs\nVPC Name, Select VPC, BGP (broader gateway protocol)",
+         "point5": "Steps: we need to create new anypont vpn, confi remot ip address, ",
+         "point6": "select the vpn we need to migrate",
+         "image": ""
+       },
+       {
+         "id":80,
+         "title": "What is Mulesoft Runtime Fabric (RTF)?",
+         "content": "Runtime Fabric is also a one of the deployment options when using anypoint runtime manager  ",
+         "point1": "<strong>Differ:</strong> In CloudHub, MuleSoft maintains the runtime plane, whereas in on-premises and RTF deployments, the customer controls the runtime plane",
+         "point2": "<strong>key components :</strong>The key components include the control plane, runtime plane, and the underlying infrastructure (which could be on-premises or cloud-based) ",
+         "point3": "<strong>architecture </strong>:Mulesoft RTF architecture includes a control plane managed by MuleSoft and a runtime plane managed by the customer. The runtime plane consists of multiple worker nodes that run Mule applications and API gateways, combined by Kubernetes",
+         "point4": "<strong> benefits :</strong>Benefits include improved scalability, automated orchestration, better resource utilization, and the ability to deploy across hybrid environments.",
+         "point5":"<strong>deployed on RTF is not performing as expected?</strong>Steps include checking the application logs, monitoring resource usage, verifying network connectivity, and ensuring that the application configuration is correct. Additionally, using RTF's built-in monitoring tools to identify bottlenecks and performance issues.",
+          "point6":"<strong>ensure high availability and fault tolerance in RTF?</strong>High availability and fault tolerance are ensured by deploying multiple worker nodes, using Kubernetes for orchestration, and configuring load balancing and failover mechanisms.",
+          "image": "<img src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2023/05/img_6059d598a2eaf.png?strip=all&quality=95\" style=\"width: 60%;\"> "
+       },
+       {
+         "id":81,
+         "title": "RTF Cert Renewal Process?",
+         "content": "we need to get cert files in JKS/PEM format, if we get it in other formate we need to move them to server and give full executable permissions CHMOD 777 filename",
+         "point1": "then we need to convert it into .cert file using -> openssl pkcs12 -in dev-api-int.kci1.com-2023.pfx -out dev-api-int.kci1.com-2023.crt -nodes",
+         "point2": "Converting as JKS file format with help of below command:->keytool -importkeystore -srckeystore test-api-int.kci1.com-2023.pfx -srcstoretype pkcs12 -destkeystore test-api-int.kci1.com.jks -deststoretype JKS",
+         "point3": "goto Anypoint platform -> Runtime Fabrics -> Goto Inbound Traffic -> upload jks and give password",
+         "point4": "",
+         "point5":"",
+          "point6":"",
+          "image": "<img src=\"\" style=\"width: 60%;\"> "
+       },
+       {
+         "id":82,
+         "title": "RTF Troubleshooting? OPS Center (Worker nodes, controller nodes)",
+         "content": "<strong>cmd:</strong> sudo gravity status(It will display the status of the cluster its active or not, healthy and online)",
+         "point1": "<strong>cmd:</strong> sudo gravity plan (to check last update status)",
+         "point2": "<strong>logs path:</strong> cat /var/log/rtf-init.log or cat /var/log/gravity-install.log",
+         "point3": "<strong>cmd:</strong> sudo gravity enter (for accessing gravity container)",
+         "point4": "<strong>check cluster health: cmd:</strong> etcdctl cluster-health",
+         "point5":"<strong>journal:</strong> journalctl -p err -r (cmd for read and filter system log messages)",
+          "point6":"<strong>check nodes:</strong> kubectl get nodes (this command provides overview of the nodes present in kubernetes cluster <br /> <strong>cmd:</strong> sudo kubectl get pods -o wide --all-namespaces (to list all pods in namespaces) <br /> <strong>cmd:</strong> sudo kubectl get events -all-namespaces (list out events for all the namespaces in the cluster <br/> <strong>cmd:</strong> kubectl delete pods -n {app_namespace} {app_pod} ",
+          "image": "<img src=\"\" style=\"width: 60%;\"> "
+       },
+       {
+         "id": 83,
+         "title": "CloudHub Cert Renewal",
+         "content": "",
+         "point1": "",
+         "point2": "",
+         "point3": "",
+         "point4": "",
+         "point5":"",
+          "point6":"",
+          "image": "<img src=\"\" style=\"width: 60%;\"> "
        }
+       
+       
  ]
