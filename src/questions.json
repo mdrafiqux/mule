@@ -1,7 +1,7 @@
 [
    {
      "id":1,
-     "title": "What is MuleSoft? and advantages?",
+     "title": "What is MuleSoft? and advantages",
      "content": "Mulesoft is an integration platform to connect applications, data, and devices within the cloud and on-premises environments",
      "point1": "",
      "point2": "*Organizations always want their system to be in sync so that they can operate all together and because of which integration need comes into picture",
@@ -986,8 +986,20 @@
        },
        {
          "id": 83,
-         "title": "CloudHub Cert Renewal??",
-         "content": "",
+         "title": "Handling High Availability, Performance optimization",
+         "content": "Cloudhub: Multi-Worker Deployment, Global Load Balancing, Auto-Scaling",
+         "point1": "RTF: Clustered Deployment, High Availability Configuration, Monitoring and Alerts",
+         "point2": "Cloudhub: Efficient Use of vCores, Memory Management(avoid storing large payloads), Scheduler Configuration(config it only to run on primary node)",
+         "point3": "RTF: Resource Allocation(on needs), Container Optimization",
+         "point4": "",
+         "point5":"",
+          "point6":"",
+          "image": "<img src=\"\" style=\"width: 60%;\"> "
+       },
+       {
+         "id":84,
+         "title": "What is object store V2?",
+         "content": "Object Store v2 lets Cloudhub applications store data and states across batch processes, Mule components and applications, from within an application.",
          "point1": "",
          "point2": "",
          "point3": "",
@@ -996,6 +1008,7 @@
           "point6":"",
           "image": "<img src=\"\" style=\"width: 60%;\"> "
        }
+
        
        
  ]
