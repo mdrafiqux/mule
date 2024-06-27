@@ -1,7 +1,7 @@
 [
    {
      "id":1,
-     "title": "What is MuleSoft? and advantages",
+     "title": "What is MuleSoft? and advantages?",
      "content": "Mulesoft is an integration platform to connect applications, data, and devices within the cloud and on-premises environments",
      "point1": "",
      "point2": "*Organizations always want their system to be in sync so that they can operate all together and because of which integration need comes into picture",
@@ -970,7 +970,7 @@
          "point4": "",
          "point5":"",
           "point6":"",
-          "image": "<img src=\"\" style=\"width: 60%;\"> "
+          "image": "<img src=\"\" style=\"width: 60%;\">"
        },
        {
          "id":82,
